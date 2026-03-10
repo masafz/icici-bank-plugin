@@ -1,19 +1,20 @@
 // registration
-import step1 from "../assets/flow/registration/step1.jpg";
-import step2 from "../assets/flow/registration/step2.jpg";
-import step3 from "../assets/flow/registration/step3.jpg";
-import step4 from "../assets/flow/registration/step4.jpg";
-import step5 from "../assets/flow/registration/step5.jpg";
-import step6 from "../assets/flow/registration/step6.jpg";
-import step7 from "../assets/flow/registration/step7.jpg";
-import step8 from "../assets/flow/registration/step8.jpg";
-import step9 from "../assets/flow/registration/step9.jpg";
+import step1 from "../assets/flow/registration/Step_1.png";
+import step2 from "../assets/flow/registration/Step_2.png";
+import step3 from "../assets/flow/registration/Step_3.png";
+import step4 from "../assets/flow/registration/Step_4.png";
+import step5 from "../assets/flow/registration/Step_5.png";
+import step6 from "../assets/flow/registration/Step_6.png";
+import step7 from "../assets/flow/registration/Step_7.png";
+import step8 from "../assets/flow/registration/Step_8.png";
+import step9 from "../assets/flow/registration/Step_9.png";
+import step10 from "../assets/flow/registration/Step_10.png";
+import step11 from "../assets/flow/registration/Step_11.png";
 
 // subscription
-import subStep1 from "../assets/flow/subscription/step1.jpg";
-import subStep2 from "../assets/flow/subscription/step2.jpg";
-import subStep3 from "../assets/flow/subscription/step3.jpg";
-import subStep4 from "../assets/flow/subscription/step4.jpg";
+import subStep1 from "../assets/flow/subscription/Step_1.png";
+import subStep2 from "../assets/flow/subscription/Step_2.png";
+import subStep3 from "../assets/flow/subscription/Step_3.png";
 
 export const demoCardDetails = [
   {
@@ -261,12 +262,7 @@ export const flowData = {
     {
       image: step1,
       title: "Welcome To Bank Plugin Home Page",
-      note: "",
-      position: {
-        default: { top: "80%", left: "45%" },
-        screen1440: { top: "71.5%", left: "41%" },
-        screen1920: { top: "78.5%", left: "38%" },
-      },
+      position: { top: "65%", left: "47%", width: "32%" },
       arrow: "left",
       points: [
         "New customers can click on the ERP platform to begin registration",
@@ -276,12 +272,7 @@ export const flowData = {
     {
       image: step2,
       title: "Register Now Option",
-      note: "",
-      position: {
-        default: { top: "85%", left: "34%" },
-        screen1440: { top: "75%", left: "30%" },
-        screen1920: { top: "83%", left: "29%" },
-      },
+      position: { top: "69.5%", left: "41.5%", width: "30%" },
       arrow: "left",
       points: ["Click on Register Now"],
     },
@@ -289,11 +280,7 @@ export const flowData = {
       image: step3,
       title: "Registration Form Page",
       note: "Please note: The mentioned Mobile number and password will only be used for Registration purposes",
-      position: {
-        default: { top: "63%", left: "16%" },
-        screen1440: { top: "59%", left: "15%" },
-        screen1920: { top: "61%", left: "18%" },
-      },
+      position: { top: "60%", left: "18%", width: "30%" },
       arrow: "right",
       points: [
         "Fill all the required registration details including Company Name, GST Number, State, Mobile Number, email address etc",
@@ -303,11 +290,7 @@ export const flowData = {
       image: step4,
       title: "Accepting 1st Terms And Conditions",
       note: "",
-      position: {
-        default: { top: "70%", left: "19%" },
-        screen1440: { top: "64.5%", left: "18%" },
-        screen1920: { top: "69%", left: "22%" },
-      },
+      position: { top: "46.5%", left: "18%", width: "30%" },
       arrow: "right",
       points: [
         "Review and accept the first terms and conditions by selecting the checkbox",
@@ -317,11 +300,7 @@ export const flowData = {
       image: step5,
       title: "Accepting Terms and Conditions",
       note: "",
-      position: {
-        default: { top: "30%", left: "70%" },
-        screen1440: { top: "35%", left: "75%" },
-        screen1920: { top: "30%", left: "79%" },
-      },
+      position: { top: "25%", left: "70%", width: "30%" },
       arrow: "right",
       points: [
         "Terms and Conditions appear.",
@@ -332,11 +311,7 @@ export const flowData = {
       image: step6,
       title: "Accepting Terms and Conditions",
       note: "",
-      position: {
-        default: { top: "82%", left: "33%" },
-        screen1440: { top: "73%", left: "29%" },
-        screen1920: { top: "80%", left: "26%" },
-      },
+      position: { top: "66.5%", left: "37%", width: "30%" },
       arrow: "left",
       points: ["Click on “I Agree”"],
     },
@@ -344,11 +319,7 @@ export const flowData = {
       image: step4,
       title: "Accepting 2nd Terms and Conditions",
       note: "",
-      position: {
-        default: { top: "81%", left: "19%" },
-        screen1440: { top: "72%", left: "18%" },
-        screen1920: { top: "79%", left: "22%" },
-      },
+      position: { top: "55.5%", left: "18%", width: "30%" },
       arrow: "right",
       points: ["Clicks on 2nd Check box to select Personal Data Consent"],
     },
@@ -356,11 +327,7 @@ export const flowData = {
       image: step7,
       title: "Review 2nd Terms and Conditions",
       note: "",
-      position: {
-        default: { top: "30%", left: "70%" },
-        screen1440: { top: "35%", left: "75%" },
-        screen1920: { top: "30%", left: "80%" },
-      },
+      position: { top: "25%", left: "70%", width: "30%" },
       arrow: "right",
       points: [
         "Personal Data Consent Appears",
@@ -371,35 +338,35 @@ export const flowData = {
       image: step8,
       title: "Review 2nd Terms and Conditions",
       note: "",
-      position: {
-        default: { top: "82%", left: "33%" },
-        screen1440: { top: "73%", left: "29%" },
-        screen1920: { top: "80%", left: "26%" },
-      },
+      position: { top: "66.5%", left: "37%", width: "30%" },
       arrow: "left",
       points: ["Click on “I Agree”"],
     },
     {
-      image: step4,
+      image: step9,
       title: "Continue to Register",
       note: "",
-      position: {
-        default: { top: "79%", left: "39.5%" },
-        screen1440: { top: "72%", left: "38%" },
-        screen1920: { top: "82%", left: "38%" },
-      },
+      position: { top: "42%", left: "39%", width: "30%" },
       arrow: "bottom",
-      points: ["Click on Continue to successfully complete your registration."],
+      points: [
+        "Click on Continue to successfully complete your registration by entering the OTP sent to your mentioned mobile number.",
+      ],
     },
     {
-      image: step9,
+      image: step11,
+      title: "Almost Done!",
+      note: "",
+      position: { top: "52%", left: "40%", width: "30%" },
+      arrow: "bottom",
+      points: [
+        'OTP is successfully verified. Click on "Create Account" to complete your registration.',
+      ],
+    },
+    {
+      image: step10,
       title: "Registration Successful",
       note: "Note: Kindly use the Mobile number used at the time of Registration process",
-      position: {
-        default: { top: "80%", left: "60%" },
-        screen1440: { top: "76%", left: "59%" },
-        screen1920: { top: "84%", left: "56%" },
-      },
+      position: { top: "70%", left: "62%", width: "30%" },
       arrow: "left",
       points: [
         "Enter your Registered Mobile number and Password.",
@@ -413,35 +380,22 @@ export const flowData = {
       image: subStep1,
       title: "Bank Plugin Home Page Portal",
       note: "Welcome to Bank Plugin Portal",
-      position: {
-        default: { top: "48%", left: "60%" },
-        screen1440: { top: "48%", left: "60%" },
-        screen1920: { top: "45%", left: "60%" },
-      },
+      position: { top: "36%", left: "60%", width: "28%" },
       arrow: "",
       points: [],
     },
     {
-      image: subStep2,
+      image: subStep1,
       title: "Registration Successful",
-      note: "",
-      position: {
-        default: { top: "80%", left: "60%" },
-        screen1440: { top: "72%", left: "60%" },
-        screen1920: { top: "82%", left: "60%" },
-      },
+      position: { top: "75%", left: "60%", width: "30%" },
       arrow: "bottom",
       points: ["Click on “Click here to Activate your Subscription”"],
     },
     {
-      image: subStep3,
+      image: subStep2,
       title: "Subscription Plan",
       note: "",
-      position: {
-        default: { top: "20%", left: "49%" },
-        screen1440: { top: "33%", left: "49%" },
-        screen1920: { top: "25%", left: "49%" },
-      },
+      position: { top: "25%", left: "49.5%", width: "30%" },
       arrow: "",
       points: [
         "Select the subscription plan: Trial Period or Paid Subscription Plan",
@@ -450,15 +404,11 @@ export const flowData = {
       ],
     },
     {
-      image: subStep4,
+      image: subStep3,
       title: "Subscription Plan",
       note: "",
-      position: {
-        default: { top: "50%", left: "60%" },
-        screen1440: { top: "50%", left: "62%" },
-        screen1920: { top: "55%", left: "62%" },
-      },
-      arrow: "bottom",
+      position: { top: "48%", left: "60%", width: "30%" },
+      arrow: "",
       points: [
         "Select the subscription plan: Trial Period or Paid Subscription Plan",
         "For trial period we have 7 days validity in Tally and 30 days for Busy",
