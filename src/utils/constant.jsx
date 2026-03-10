@@ -1,20 +1,33 @@
 // registration
-import step1 from "../assets/flow/registration/Step_1.png";
-import step2 from "../assets/flow/registration/Step_2.png";
-import step3 from "../assets/flow/registration/Step_3.png";
-import step4 from "../assets/flow/registration/Step_4.png";
-import step5 from "../assets/flow/registration/Step_5.png";
-import step6 from "../assets/flow/registration/Step_6.png";
-import step7 from "../assets/flow/registration/Step_7.png";
-import step8 from "../assets/flow/registration/Step_8.png";
-import step9 from "../assets/flow/registration/Step_9.png";
-import step10 from "../assets/flow/registration/Step_10.png";
-import step11 from "../assets/flow/registration/Step_11.png";
+import regStep1 from "../assets/flow/registration/Step_1.png";
+import regStep2 from "../assets/flow/registration/Step_2.png";
+import regStep3 from "../assets/flow/registration/Step_3.png";
+import regStep4 from "../assets/flow/registration/Step_4.png";
+import regStep5 from "../assets/flow/registration/Step_5.png";
+import regStep6 from "../assets/flow/registration/Step_6.png";
+import regStep7 from "../assets/flow/registration/Step_7.png";
+import regStep8 from "../assets/flow/registration/Step_8.png";
+import regStep9 from "../assets/flow/registration/Step_9.png";
+import regStep10 from "../assets/flow/registration/Step_10.png";
+import regStep11 from "../assets/flow/registration/Step_11.png";
 
 // subscription
 import subStep1 from "../assets/flow/subscription/Step_1.png";
 import subStep2 from "../assets/flow/subscription/Step_2.png";
 import subStep3 from "../assets/flow/subscription/Step_3.png";
+
+// installation
+import installStep1 from "../assets/flow/installation/Step_1.png";
+import installStep2 from "../assets/flow/installation/Step_2.png";
+import installStep3 from "../assets/flow/installation/Step_3.jpg";
+import installStep4 from "../assets/flow/installation/Step_4.jpg";
+import installStep5 from "../assets/flow/installation/Step_5.jpg";
+import installStep6 from "../assets/flow/installation/Step_6.jpg";
+import installStep7 from "../assets/flow/installation/Step_7.jpg";
+import installStep8 from "../assets/flow/installation/Step_8.jpg";
+import installStep9 from "../assets/flow/installation/Step_9.jpg";
+import installStep10 from "../assets/flow/installation/Step_10.jpg";
+import installStep11 from "../assets/flow/installation/Step_11.jpg";
 
 export const demoCardDetails = [
   {
@@ -224,7 +237,7 @@ export const featureData = {
       "Easy installation and quick setup",
     ],
     note: "In this demo, let’s see how to install Bank Plugin in ERP",
-    route: "",
+    route: "installation-flow",
   },
   "corpid-userid": {
     title: "Corp ID, User ID",
@@ -260,7 +273,7 @@ export const featureData = {
 export const flowData = {
   "registration-flow": [
     {
-      image: step1,
+      image: regStep1,
       title: "Welcome To Bank Plugin Home Page",
       position: { top: "65%", left: "47%", width: "32%" },
       arrow: "left",
@@ -270,14 +283,14 @@ export const flowData = {
       ],
     },
     {
-      image: step2,
+      image: regStep2,
       title: "Register Now Option",
       position: { top: "69.5%", left: "41.5%", width: "30%" },
       arrow: "left",
       points: ["Click on Register Now"],
     },
     {
-      image: step3,
+      image: regStep3,
       title: "Registration Form Page",
       note: "Please note: The mentioned Mobile number and password will only be used for Registration purposes",
       position: { top: "60%", left: "18%", width: "30%" },
@@ -287,7 +300,7 @@ export const flowData = {
       ],
     },
     {
-      image: step4,
+      image: regStep4,
       title: "Accepting 1st Terms And Conditions",
       note: "",
       position: { top: "46.5%", left: "18%", width: "30%" },
@@ -297,7 +310,7 @@ export const flowData = {
       ],
     },
     {
-      image: step5,
+      image: regStep5,
       title: "Accepting Terms and Conditions",
       note: "",
       position: { top: "25%", left: "70%", width: "30%" },
@@ -308,7 +321,7 @@ export const flowData = {
       ],
     },
     {
-      image: step6,
+      image: regStep6,
       title: "Accepting Terms and Conditions",
       note: "",
       position: { top: "66.5%", left: "37%", width: "30%" },
@@ -316,7 +329,7 @@ export const flowData = {
       points: ["Click on “I Agree”"],
     },
     {
-      image: step4,
+      image: regStep4,
       title: "Accepting 2nd Terms and Conditions",
       note: "",
       position: { top: "55.5%", left: "18%", width: "30%" },
@@ -324,7 +337,7 @@ export const flowData = {
       points: ["Clicks on 2nd Check box to select Personal Data Consent"],
     },
     {
-      image: step7,
+      image: regStep7,
       title: "Review 2nd Terms and Conditions",
       note: "",
       position: { top: "25%", left: "70%", width: "30%" },
@@ -335,7 +348,7 @@ export const flowData = {
       ],
     },
     {
-      image: step8,
+      image: regStep8,
       title: "Review 2nd Terms and Conditions",
       note: "",
       position: { top: "66.5%", left: "37%", width: "30%" },
@@ -343,7 +356,7 @@ export const flowData = {
       points: ["Click on “I Agree”"],
     },
     {
-      image: step9,
+      image: regStep9,
       title: "Continue to Register",
       note: "",
       position: { top: "42%", left: "39%", width: "30%" },
@@ -353,7 +366,7 @@ export const flowData = {
       ],
     },
     {
-      image: step11,
+      image: regStep11,
       title: "Almost Done!",
       note: "",
       position: { top: "52%", left: "40%", width: "30%" },
@@ -363,7 +376,7 @@ export const flowData = {
       ],
     },
     {
-      image: step10,
+      image: regStep10,
       title: "Registration Successful",
       note: "Note: Kindly use the Mobile number used at the time of Registration process",
       position: { top: "70%", left: "62%", width: "30%" },
@@ -413,6 +426,102 @@ export const flowData = {
         "Select the subscription plan: Trial Period or Paid Subscription Plan",
         "For trial period we have 7 days validity in Tally and 30 days for Busy",
         "For 12 months’ validity plan: Review and click on Terms and Conditions checkbox",
+      ],
+    },
+  ],
+  "installation-flow": [
+    {
+      image: installStep1,
+      title: "Install TCP file",
+      note: "Note: Download the File as per your ERP type (taking tally prime as example)",
+      position: { top: "57%", left: "15%", width: "28%" },
+      arrow: "right",
+      points: [
+        "Go to Bank Plugin Home Page Portal",
+        "Click on “Download Plugin for Tally Prime (V 1.60)/ Tally ERP 9(V 1.59)",
+      ],
+    },
+    {
+      image: installStep2,
+      title: "Select the file path",
+      position: { top: "45%", left: "50%", width: "30%" },
+      arrow: "",
+      points: ["Download the TCP file in the desired Computer path"],
+    },
+    {
+      image: installStep3,
+      title: "Login to your ERP",
+      position: { top: "73%", left: "44.5%", width: "30%" },
+      arrow: "top",
+      points: [
+        "Open your ERP platform in this case it is Tally Prime",
+        "Enter your Username and Password given by your ERP to select your Company",
+      ],
+    },
+    {
+      image: installStep4,
+      title: "Installation Process",
+      position: { top: "23%", left: "64%", width: "30%" },
+      arrow: "right",
+      points: [
+        "Click on F1 Help button available at the top right corner",
+        "A drop down menu",
+      ],
+    },
+    {
+      image: installStep5,
+      title: "Select the TDL",
+      position: { top: "31%", left: "64%", width: "30%" },
+      arrow: "right",
+      points: ["Click on TDLs & AddOns"],
+    },
+    {
+      image: installStep6,
+      title: "Select the TDL",
+      position: { top: "21%", left: "74%", width: "30%" },
+      arrow: "right",
+      points: ["Click on F4: Manage Local TDLs"],
+    },
+    {
+      image: installStep7,
+      title: "Select the TDL",
+      position: { top: "51%", left: "34%", width: "30%" },
+      arrow: "",
+      points: [
+        "Select the Load selected TDL files on startup as Yes",
+        "Select the Drive option from the drop-down menu",
+        "Click on Downloads",
+      ],
+    },
+    {
+      image: installStep8,
+      title: "Select the TDL",
+      position: { top: "60%", left: "24%", width: "30%" },
+      arrow: "right",
+      points: ["Select the TCP file from the path"],
+    },
+    {
+      image: installStep9,
+      title: "Change the Load TDL",
+      position: { top: "41%", left: "82%", width: "20%" },
+      arrow: "left",
+      points: ["Make “Load TDL” as “Yes”"],
+    },
+    {
+      image: installStep10,
+      title: "Add feature",
+      position: { top: "35%", left: "79%", width: "20%" },
+      arrow: "right",
+      points: ["Click on F6 Add Ons Features"],
+    },
+    {
+      image: installStep11,
+      title: "Installation Completed",
+      position: { top: "36.5%", left: "53%", width: "30%" },
+      arrow: "left",
+      points: [
+        "Enable bank plugin to “Yes”. Tally will restart after this.",
+        "Congratulations you have successfully installed Bank Plugin in your Tally Prime",
       ],
     },
   ],

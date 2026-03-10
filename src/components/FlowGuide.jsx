@@ -17,9 +17,11 @@ export default function FlowGuide() {
   };
 
   useEffect(() => {
+    const nextImage = slides[step + 1]?.image;
+    if (!nextImage) return;
     const img = new Image();
-    img.src = currentSlide.image;
-  }, [currentSlide.image]);
+    img.src = nextImage;
+  }, [step, slides]);
 
   return (
     <div className="w-full h-screen flex items-center justify-center overflow-hidden">
