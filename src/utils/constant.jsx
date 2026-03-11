@@ -275,7 +275,7 @@ export const flowData = {
     {
       image: regStep1,
       title: "Welcome To Bank Plugin Home Page",
-      position: { top: "65%", left: "47%", width: "32%" },
+      position: { top: "67.5%", left: "47%", width: "32%" },
       arrow: "left",
       points: [
         "New customers can click on the ERP platform to begin registration",
@@ -285,7 +285,7 @@ export const flowData = {
     {
       image: regStep2,
       title: "Register Now Option",
-      position: { top: "69.5%", left: "41.5%", width: "30%" },
+      position: { top: "72.5%", left: "42%", width: "30%" },
       arrow: "left",
       points: ["Click on Register Now"],
     },
@@ -303,7 +303,7 @@ export const flowData = {
       image: regStep4,
       title: "Accepting 1st Terms And Conditions",
       note: "",
-      position: { top: "46.5%", left: "18%", width: "30%" },
+      position: { top: "45.5%", left: "19%", width: "30%" },
       arrow: "right",
       points: [
         "Review and accept the first terms and conditions by selecting the checkbox",
@@ -313,7 +313,7 @@ export const flowData = {
       image: regStep5,
       title: "Accepting Terms and Conditions",
       note: "",
-      position: { top: "25%", left: "70%", width: "30%" },
+      position: { top: "23%", left: "69%", width: "30%" },
       arrow: "right",
       points: [
         "Terms and Conditions appear.",
@@ -324,7 +324,7 @@ export const flowData = {
       image: regStep6,
       title: "Accepting Terms and Conditions",
       note: "",
-      position: { top: "66.5%", left: "37%", width: "30%" },
+      position: { top: "69.5%", left: "37.5%", width: "30%" },
       arrow: "left",
       points: ["Click on “I Agree”"],
     },
@@ -332,7 +332,7 @@ export const flowData = {
       image: regStep4,
       title: "Accepting 2nd Terms and Conditions",
       note: "",
-      position: { top: "55.5%", left: "18%", width: "30%" },
+      position: { top: "56.5%", left: "19%", width: "30%" },
       arrow: "right",
       points: ["Clicks on 2nd Check box to select Personal Data Consent"],
     },
@@ -340,7 +340,7 @@ export const flowData = {
       image: regStep7,
       title: "Review 2nd Terms and Conditions",
       note: "",
-      position: { top: "25%", left: "70%", width: "30%" },
+      position: { top: "23%", left: "69%", width: "30%" },
       arrow: "right",
       points: [
         "Personal Data Consent Appears",
@@ -351,7 +351,7 @@ export const flowData = {
       image: regStep8,
       title: "Review 2nd Terms and Conditions",
       note: "",
-      position: { top: "66.5%", left: "37%", width: "30%" },
+      position: { top: "69.5%", left: "37.5%", width: "30%" },
       arrow: "left",
       points: ["Click on “I Agree”"],
     },
@@ -359,7 +359,7 @@ export const flowData = {
       image: regStep9,
       title: "Continue to Register",
       note: "",
-      position: { top: "42%", left: "39%", width: "30%" },
+      position: { top: "40%", left: "39%", width: "30%" },
       arrow: "bottom",
       points: [
         "Click on Continue to successfully complete your registration by entering the OTP sent to your mentioned mobile number.",
@@ -369,7 +369,7 @@ export const flowData = {
       image: regStep11,
       title: "Almost Done!",
       note: "",
-      position: { top: "52%", left: "40%", width: "30%" },
+      position: { top: "53%", left: "40%", width: "30%" },
       arrow: "bottom",
       points: [
         'OTP is successfully verified. Click on "Create Account" to complete your registration.',
@@ -379,7 +379,7 @@ export const flowData = {
       image: regStep10,
       title: "Registration Successful",
       note: "Note: Kindly use the Mobile number used at the time of Registration process",
-      position: { top: "70%", left: "62%", width: "30%" },
+      position: { top: "73%", left: "61.5%", width: "30%" },
       arrow: "left",
       points: [
         "Enter your Registered Mobile number and Password.",
@@ -400,7 +400,7 @@ export const flowData = {
     {
       image: subStep1,
       title: "Registration Successful",
-      position: { top: "75%", left: "60%", width: "30%" },
+      position: { top: "79%", left: "60%", width: "30%" },
       arrow: "bottom",
       points: ["Click on “Click here to Activate your Subscription”"],
     },
@@ -420,7 +420,7 @@ export const flowData = {
       image: subStep3,
       title: "Subscription Plan",
       note: "",
-      position: { top: "48%", left: "60%", width: "30%" },
+      position: { top: "49%", left: "60%", width: "30%" },
       arrow: "",
       points: [
         "Select the subscription plan: Trial Period or Paid Subscription Plan",
@@ -434,7 +434,7 @@ export const flowData = {
       image: installStep1,
       title: "Install TCP file",
       note: "Note: Download the File as per your ERP type (taking tally prime as example)",
-      position: { top: "57%", left: "15%", width: "28%" },
+      position: { top: "59%", left: "16%", width: "28%" },
       arrow: "right",
       points: [
         "Go to Bank Plugin Home Page Portal",
@@ -451,7 +451,7 @@ export const flowData = {
     {
       image: installStep3,
       title: "Login to your ERP",
-      position: { top: "73%", left: "44.5%", width: "30%" },
+      position: { top: "75.5%", left: "45%", width: "30%" },
       arrow: "top",
       points: [
         "Open your ERP platform in this case it is Tally Prime",
@@ -461,7 +461,7 @@ export const flowData = {
     {
       image: installStep4,
       title: "Installation Process",
-      position: { top: "23%", left: "64%", width: "30%" },
+      position: { top: "23%", left: "61%", width: "30%" },
       arrow: "right",
       points: [
         "Click on F1 Help button available at the top right corner",
@@ -471,14 +471,14 @@ export const flowData = {
     {
       image: installStep5,
       title: "Select the TDL",
-      position: { top: "31%", left: "64%", width: "30%" },
+      position: { top: "30%", left: "61%", width: "30%" },
       arrow: "right",
       points: ["Click on TDLs & AddOns"],
     },
     {
       image: installStep6,
       title: "Select the TDL",
-      position: { top: "21%", left: "74%", width: "30%" },
+      position: { top: "21%", left: "69%", width: "30%" },
       arrow: "right",
       points: ["Click on F4: Manage Local TDLs"],
     },
@@ -496,28 +496,28 @@ export const flowData = {
     {
       image: installStep8,
       title: "Select the TDL",
-      position: { top: "60%", left: "24%", width: "30%" },
+      position: { top: "60%", left: "28%", width: "28%" },
       arrow: "right",
       points: ["Select the TCP file from the path"],
     },
     {
       image: installStep9,
       title: "Change the Load TDL",
-      position: { top: "41%", left: "82%", width: "20%" },
+      position: { top: "40.5%", left: "79.5%", width: "20%" },
       arrow: "left",
       points: ["Make “Load TDL” as “Yes”"],
     },
     {
       image: installStep10,
       title: "Add feature",
-      position: { top: "35%", left: "79%", width: "20%" },
+      position: { top: "34.5%", left: "74%", width: "20%" },
       arrow: "right",
       points: ["Click on F6 Add Ons Features"],
     },
     {
       image: installStep11,
       title: "Installation Completed",
-      position: { top: "36.5%", left: "53%", width: "30%" },
+      position: { top: "35.5%", left: "54%", width: "30%" },
       arrow: "left",
       points: [
         "Enable bank plugin to “Yes”. Tally will restart after this.",
