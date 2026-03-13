@@ -49,12 +49,11 @@ export default function FlowGuide() {
         style={{ backgroundImage: `url(${currentSlide.image})` }}
       >
         <div
-          className="absolute will-change-transform"
+          className="absolute -translate-x-1/2 -translate-y-1/2"
           style={{
             top: currentSlide.position.top,
             left: currentSlide.position.left,
             width: currentSlide.position.width,
-            transform: "translate(-50%, -50%)",
           }}
         >
           {currentSlide.arrow === "top" && (
@@ -89,7 +88,7 @@ export default function FlowGuide() {
               </ul>
             )}
             {currentSlide.note && (
-              <p className="text-sm mt-1">{currentSlide.note}</p>
+              <p className="text-sm mt-1" dangerouslySetInnerHTML={{ __html: currentSlide.note }} />
             )}
             <div className="flex justify-end mt-3">
               <button

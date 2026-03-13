@@ -49,6 +49,16 @@ import tokenGenStep2 from "../assets/flow/token-generation/Step_2.jpg";
 import tokenGenStep3 from "../assets/flow/token-generation/Step_3.jpg";
 import tokenGenStep4 from "../assets/flow/token-generation/Step_4.jpg";
 import tokenGenStep5 from "../assets/flow/token-generation/Step_5.png";
+import tokenGenStep6 from "../assets/flow/token-generation/Step_6.png";
+import tokenGenStep7 from "../assets/flow/token-generation/Step_7.png";
+import tokenGenStep8 from "../assets/flow/token-generation/Step_8.png";
+import tokenGenStep9 from "../assets/flow/token-generation/Step_9.png";
+import tokenGenStep10 from "../assets/flow/token-generation/Step_10.png";
+import tokenGenStep11 from "../assets/flow/token-generation/Step_11.png";
+import tokenGenStep12 from "../assets/flow/token-generation/Step_12.jpg";
+import tokenGenStep13 from "../assets/flow/token-generation/Step_13.jpg";
+import tokenGenStep14 from "../assets/flow/token-generation/Step_14.jpg";
+import tokenGenStep15 from "../assets/flow/token-generation/Step_15.jpg";
 
 export const demoCardDetails = [
   {
@@ -560,8 +570,8 @@ export const flowData = {
     {
       image: accLinkStep1,
       title: "Bank Plugin Dashboard",
-      note: "Go to Bank Plugin Home Page Portal",
-      position: { top: "45%", left: "23%", width: "25%" },
+      note: "Click here to configure E-Banking",
+      position: { top: "14%", left: "71%", width: "25%" },
       arrow: "right",
       points: [],
     },
@@ -577,7 +587,7 @@ export const flowData = {
       image: accLinkStep3,
       title: "",
       note: "",
-      position: { top: "25%", left: "25%", width: "28%" },
+      position: { top: "24%", left: "25%", width: "32%" },
       arrow: "top",
       points: [
         "Enter the Bank Details (IFSC, Account Number, Bank Name)",
@@ -588,7 +598,7 @@ export const flowData = {
       image: accLinkStep4,
       title: "",
       note: "Select the Yes option on the accept dialogue box",
-      position: { top: "88%", left: "50%", width: "28%" },
+      position: { top: "88%", left: "51.5%", width: "28%" },
       arrow: "right",
       points: [],
     },
@@ -614,11 +624,7 @@ export const flowData = {
       note: "",
       position: { top: "16%", left: "53%", width: "28%" },
       arrow: "right",
-      points: [
-        "Click on List of Corp IDs",
-        "Select the Corp ID from the drop-down menu",
-        "Press Enter",
-      ],
+      points: ["Select the Corp ID from the drop-down menu", "Press Enter"],
     },
     {
       image: accLinkStep8,
@@ -639,10 +645,10 @@ export const flowData = {
     {
       image: accLinkStep10,
       title: "",
-      note: "",
+      note: "Corp ID and User ID enabled Successfully",
       position: { top: "55%", left: "69%", width: "23%" },
       arrow: "top",
-      points: ["Click on Esc once", "Click on F4 to view the Balance "],
+      points: [],
     },
     {
       image: accLinkStep11,
@@ -650,7 +656,7 @@ export const flowData = {
       note: "",
       position: { top: "54%", left: "72%", width: "23%" },
       arrow: "right",
-      points: ["Click on Esc once", "Click on F4 to view the Balance "],
+      points: ["Click on F4 to view the Balance"],
     },
     {
       image: accLinkStep12,
@@ -658,10 +664,7 @@ export const flowData = {
       note: "",
       position: { top: "43%", left: "49%", width: "32%" },
       arrow: "top",
-      points: [
-        "Click on Esc once",
-        "The balance reflects the figure as per tally and as per bank",
-      ],
+      points: ["The balance reflects the figure as per tally and as per bank"],
     },
   ],
   "token-generation": [
@@ -687,7 +690,121 @@ export const flowData = {
       note: "",
       position: { top: "67%", left: "70%", width: "28%" },
       arrow: "right",
-      points: ["Click on F10: Generate and submit Token present on the right side of the dashboard"],
+      points: [
+        "Click on F10: Generate and submit Token present on the right side of the dashboard",
+      ],
+    },
+    {
+      image: tokenGenStep4,
+      title: "",
+      note: "",
+      position: { top: "48%", left: "70%", width: "28%" },
+      arrow: "left",
+      points: [
+        "Click on F4: Generate Token present on the right side of the dashboard",
+      ],
+    },
+    {
+      image: tokenGenStep5,
+      title: "",
+      note: "",
+      position: { top: "27.5%", left: "83%", width: "25%" },
+      arrow: "left",
+      points: [
+        "The login Page of CIB opens",
+        "Login into CIB using Login ID and Password",
+      ],
+    },
+    {
+      image: tokenGenStep5,
+      title: "",
+      note: "Click on Proceed",
+      position: { top: "58%", left: "69%", width: "20%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: tokenGenStep6,
+      title: "",
+      note: "Welcome to Corporate Internet Banking Platform",
+      position: { top: "10%", left: "31.5%", width: "28%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: tokenGenStep7,
+      title: "",
+      note: "Click on ‘Connected Banking’ segment displayed on the left-side menu.",
+      position: { top: "70%", left: "31.5%", width: "28%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: tokenGenStep8,
+      title: "",
+      note: "Click on ‘My Connected Banking Profile’ and select ‘Generate Token’.",
+      position: { top: "16%", left: "49%", width: "26%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: tokenGenStep9,
+      title: "",
+      note: "Click on the ‘Action’ button against the record with aggregator name ‘Tally Bank Plugin’",
+      position: { top: "55%", left: "85%", width: "26%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: tokenGenStep10,
+      title: "",
+      note: "Select ‘Token Generation’ from the dropdown menu.",
+      position: { top: "70%", left: "82%", width: "28%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: tokenGenStep11,
+      title: "",
+      note: "Enter the OTP and click on ‘Proceed for token generation’.",
+      position: { top: "47.5%", left: "57%", width: "30%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: tokenGenStep12,
+      title: "",
+      note: "Note: The token is valid for 7 days from the day of generation",
+      position: { top: "30%", left: "62%", width: "32%" },
+      arrow: "left",
+      points: ["The token is generated successfully"],
+    },
+    {
+      image: tokenGenStep13,
+      title: "",
+      note: "",
+      position: { top: "48%", left: "77%", width: "34%" },
+      arrow: "left",
+      points: [
+        "Submit the token you generated from the CIB platform on Tally.",
+        "Press enter to continue",
+      ],
+    },
+    {
+      image: tokenGenStep14,
+      title: "",
+      note: "Click on Yes button",
+      position: { top: "69.5%", left: "72%", width: "20%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: tokenGenStep15,
+      title: "",
+      note: "The Token Status changed to Valid.",
+      position: { top: "28%", left: "79%", width: "20%" },
+      arrow: "top",
+      points: [],
     },
   ],
 };
