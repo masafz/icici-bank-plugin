@@ -17,6 +17,10 @@ export default function FlowGuide() {
     else navigate(-1);
   };
 
+  const prevStep = () => {
+    if (step > 0) setStep(step - 1);
+  };
+
   useEffect(() => {
     const nextImage = slides[step + 1]?.image;
     if (!nextImage) return;
@@ -28,6 +32,9 @@ export default function FlowGuide() {
     const handleKey = (e) => {
       if (e.key === "ArrowRight" || e.key === "Enter") {
         nextStep();
+      }
+      if (e.key === "ArrowLeft" || e.key === "Backspace") {
+        prevStep();
       }
     };
 
@@ -41,7 +48,6 @@ export default function FlowGuide() {
         className="relative w-full h-full max-w-[1920px] bg-contain bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${currentSlide.image})` }}
       >
-        {/* Dialog */}
         <div
           className="absolute will-change-transform"
           style={{
@@ -51,37 +57,30 @@ export default function FlowGuide() {
             transform: "translate(-50%, -50%)",
           }}
         >
-          {/* Arrow */}
           {currentSlide.arrow === "top" && (
             <div className="flex justify-center">
               <div className="w-0 h-0 border-l-[8px] border-l-transparent border-r-[8px] border-r-transparent border-b-[8px] border-[#DB620A]" />
             </div>
           )}
-
           {currentSlide.arrow === "bottom" && (
             <div className="absolute -bottom-2 left-1/2 -translate-x-1/2">
               <div className="w-0 h-0 border-l-[8px] border-l-transparent border-r-[8px] border-r-transparent border-t-[8px] border-[#DB620A]" />
             </div>
           )}
-
           {currentSlide.arrow === "left" && (
             <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-full">
               <div className="w-0 h-0 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent border-r-[8px] border-[#DB620A]" />
             </div>
           )}
-
           {currentSlide.arrow === "right" && (
             <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-full">
               <div className="w-0 h-0 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent border-l-[8px] border-[#DB620A]" />
             </div>
           )}
-
-          {/* Dialog box */}
           <div className="border border-[#DB620A] rounded-md shadow-lg p-4 bg-[linear-gradient(180deg,rgba(251,239,230,0.5)_-12.35%,rgba(219,98,10,0.13)_88.24%)] bg-white">
             <h2 className="text-sm md:text-[17px] font-semibold mb-2">
               {currentSlide.title}
             </h2>
-
             {currentSlide.points.length > 0 && (
               <ul className="text-xs md:text-[14px] font-medium space-y-1 text-gray-800 list-decimal pl-4">
                 {currentSlide.points.map((point, index) => (
@@ -89,11 +88,9 @@ export default function FlowGuide() {
                 ))}
               </ul>
             )}
-
             {currentSlide.note && (
               <p className="text-sm mt-1">{currentSlide.note}</p>
             )}
-
             <div className="flex justify-end mt-3">
               <button
                 onClick={nextStep}

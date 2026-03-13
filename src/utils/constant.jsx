@@ -29,6 +29,27 @@ import installStep9 from "../assets/flow/installation/Step_9.jpg";
 import installStep10 from "../assets/flow/installation/Step_10.jpg";
 import installStep11 from "../assets/flow/installation/Step_11.jpg";
 
+// account linking
+import accLinkStep1 from "../assets/flow/account-linking/Step_1.jpg";
+import accLinkStep2 from "../assets/flow/account-linking/Step_2.jpg";
+import accLinkStep3 from "../assets/flow/account-linking/Step_3.jpg";
+import accLinkStep4 from "../assets/flow/account-linking/Step_4.jpg";
+import accLinkStep5 from "../assets/flow/account-linking/Step_5.jpg";
+import accLinkStep6 from "../assets/flow/account-linking/Step_6.jpg";
+import accLinkStep7 from "../assets/flow/account-linking/Step_7.jpg";
+import accLinkStep8 from "../assets/flow/account-linking/Step_8.jpg";
+import accLinkStep9 from "../assets/flow/account-linking/Step_9.jpg";
+import accLinkStep10 from "../assets/flow/account-linking/Step_10.jpg";
+import accLinkStep11 from "../assets/flow/account-linking/Step_11.jpg";
+import accLinkStep12 from "../assets/flow/account-linking/Step_12.jpg";
+
+// token generation
+import tokenGenStep1 from "../assets/flow/token-generation/Step_1.jpg";
+import tokenGenStep2 from "../assets/flow/token-generation/Step_2.jpg";
+import tokenGenStep3 from "../assets/flow/token-generation/Step_3.jpg";
+import tokenGenStep4 from "../assets/flow/token-generation/Step_4.jpg";
+import tokenGenStep5 from "../assets/flow/token-generation/Step_5.png";
+
 export const demoCardDetails = [
   {
     title: "Payments",
@@ -257,7 +278,7 @@ export const featureData = {
       "Select specific account for vendor or salary payment",
     ],
     note: "In this demo, let’s see how to link account in Bank Plugin",
-    route: "",
+    route: "account-linking-flow",
   },
   "token-generation": {
     title: "Token Generation",
@@ -266,7 +287,7 @@ export const featureData = {
       "Authorize payment initiation securely from Bank Plugin using your ERP",
     ],
     note: "In this demo, let’s see how to generate token in Bank Plugin",
-    route: "",
+    route: "token-generation",
   },
 };
 
@@ -444,6 +465,7 @@ export const flowData = {
     {
       image: installStep2,
       title: "Select the file path",
+      note: "",
       position: { top: "45%", left: "50%", width: "30%" },
       arrow: "",
       points: ["Download the TCP file in the desired Computer path"],
@@ -451,6 +473,7 @@ export const flowData = {
     {
       image: installStep3,
       title: "Login to your ERP",
+      note: "",
       position: { top: "75.5%", left: "45%", width: "30%" },
       arrow: "top",
       points: [
@@ -461,6 +484,7 @@ export const flowData = {
     {
       image: installStep4,
       title: "Installation Process",
+      note: "",
       position: { top: "23%", left: "61%", width: "30%" },
       arrow: "right",
       points: [
@@ -471,6 +495,7 @@ export const flowData = {
     {
       image: installStep5,
       title: "Select the TDL",
+      note: "",
       position: { top: "30%", left: "61%", width: "30%" },
       arrow: "right",
       points: ["Click on TDLs & AddOns"],
@@ -478,6 +503,7 @@ export const flowData = {
     {
       image: installStep6,
       title: "Select the TDL",
+      note: "",
       position: { top: "21%", left: "69%", width: "30%" },
       arrow: "right",
       points: ["Click on F4: Manage Local TDLs"],
@@ -485,6 +511,7 @@ export const flowData = {
     {
       image: installStep7,
       title: "Select the TDL",
+      note: "",
       position: { top: "51%", left: "34%", width: "30%" },
       arrow: "",
       points: [
@@ -496,6 +523,7 @@ export const flowData = {
     {
       image: installStep8,
       title: "Select the TDL",
+      note: "",
       position: { top: "60%", left: "28%", width: "28%" },
       arrow: "right",
       points: ["Select the TCP file from the path"],
@@ -503,6 +531,7 @@ export const flowData = {
     {
       image: installStep9,
       title: "Change the Load TDL",
+      note: "",
       position: { top: "40.5%", left: "79.5%", width: "20%" },
       arrow: "left",
       points: ["Make “Load TDL” as “Yes”"],
@@ -510,6 +539,7 @@ export const flowData = {
     {
       image: installStep10,
       title: "Add feature",
+      note: "",
       position: { top: "34.5%", left: "74%", width: "20%" },
       arrow: "right",
       points: ["Click on F6 Add Ons Features"],
@@ -517,12 +547,147 @@ export const flowData = {
     {
       image: installStep11,
       title: "Installation Completed",
+      note: "",
       position: { top: "35.5%", left: "54%", width: "30%" },
       arrow: "left",
       points: [
         "Enable bank plugin to “Yes”. Tally will restart after this.",
         "Congratulations you have successfully installed Bank Plugin in your Tally Prime",
       ],
+    },
+  ],
+  "account-linking-flow": [
+    {
+      image: accLinkStep1,
+      title: "Bank Plugin Dashboard",
+      note: "Go to Bank Plugin Home Page Portal",
+      position: { top: "45%", left: "23%", width: "25%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: accLinkStep2,
+      title: "",
+      note: "Select the Bank Ledger to add Bank Account Details using Spacebar",
+      position: { top: "45.5%", left: "70%", width: "28%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: accLinkStep3,
+      title: "",
+      note: "",
+      position: { top: "25%", left: "25%", width: "28%" },
+      arrow: "top",
+      points: [
+        "Enter the Bank Details (IFSC, Account Number, Bank Name)",
+        "Click on Ctrl+A button to save the details",
+      ],
+    },
+    {
+      image: accLinkStep4,
+      title: "",
+      note: "Select the Yes option on the accept dialogue box",
+      position: { top: "88%", left: "50%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: accLinkStep5,
+      title: "",
+      note: "Select the Bank ledger using spacebar",
+      position: { top: "46%", left: "78%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: accLinkStep6,
+      title: "",
+      note: "Press F5: Enabling E- Banking button present on the right side of the screen",
+      position: { top: "41%", left: "71%", width: "25%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: accLinkStep7,
+      title: "",
+      note: "",
+      position: { top: "16%", left: "53%", width: "28%" },
+      arrow: "right",
+      points: [
+        "Click on List of Corp IDs",
+        "Select the Corp ID from the drop-down menu",
+        "Press Enter",
+      ],
+    },
+    {
+      image: accLinkStep8,
+      title: "",
+      note: "Click on Yes option",
+      position: { top: "55%", left: "74%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: accLinkStep9,
+      title: "",
+      note: "E-Banking Enabled Successfully",
+      position: { top: "82%", left: "64%", width: "20%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: accLinkStep10,
+      title: "",
+      note: "",
+      position: { top: "55%", left: "69%", width: "23%" },
+      arrow: "top",
+      points: ["Click on Esc once", "Click on F4 to view the Balance "],
+    },
+    {
+      image: accLinkStep11,
+      title: "",
+      note: "",
+      position: { top: "54%", left: "72%", width: "23%" },
+      arrow: "right",
+      points: ["Click on Esc once", "Click on F4 to view the Balance "],
+    },
+    {
+      image: accLinkStep12,
+      title: "",
+      note: "",
+      position: { top: "43%", left: "49%", width: "32%" },
+      arrow: "top",
+      points: [
+        "Click on Esc once",
+        "The balance reflects the figure as per tally and as per bank",
+      ],
+    },
+  ],
+  "token-generation": [
+    {
+      image: tokenGenStep1,
+      title: "",
+      note: "",
+      position: { top: "68%", left: "71%", width: "25%" },
+      arrow: "right",
+      points: ["⁠Click on F9 Manage Corp ID"],
+    },
+    {
+      image: tokenGenStep2,
+      title: "",
+      note: "Select the Corp ID and User ID using the Spacebar",
+      position: { top: "27%", left: "30%", width: "28%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: tokenGenStep3,
+      title: "",
+      note: "",
+      position: { top: "67%", left: "70%", width: "28%" },
+      arrow: "right",
+      points: ["Click on F10: Generate and submit Token present on the right side of the dashboard"],
     },
   ],
 };
