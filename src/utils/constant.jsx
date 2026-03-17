@@ -751,7 +751,7 @@ export const flowData = {
       image: tokenGenStep9,
       title: "",
       note: "Click on the ‘Action’ button against the record with aggregator name ‘Tally Bank Plugin’",
-      position: { top: "55%", left: "85%", width: "26%" },
+      position: { top: "65%", left: "85%", width: "26%" },
       arrow: "top",
       points: [],
     },
