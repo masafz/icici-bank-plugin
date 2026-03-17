@@ -878,14 +878,14 @@ export const flowData = {
       arrow: "top",
       points: [],
     },
-    {
-      image: corpStep7,
-      title: "",
-      note: "Select Connected Banking",
-      position: { top: "80%", left: "29.5%", width: "25%" },
-      arrow: "left",
-      points: [],
-    },
+    // {
+    //   image: corpStep7,
+    //   title: "",
+    //   note: "Select Connected Banking",
+    //   position: { top: "80%", left: "29.5%", width: "25%" },
+    //   arrow: "left",
+    //   points: [],
+    // },
     {
       image: corpStep8,
       title: "",
@@ -913,10 +913,10 @@ export const flowData = {
     {
       image: corpStep11,
       title: "",
-      note: "",
+      note: "Approve Connected Banking request for “Tally ERP Plugin”",
       position: { top: "88.4%", left: "51.5%", width: "25%" },
       arrow: "right",
-      points: ["Approve Connected Banking request for “Tally ERP Plugin”"],
+      points: [],
     },
     {
       image: corpStep12,
@@ -953,7 +953,7 @@ export const flowData = {
     {
       image: corpStep15,
       title: "",
-      note: "Approved status will be displayed and click on “OK”",
+      note: "Approved status will be displayed",
       position: { top: "17.4%", left: "83%", width: "34%" },
       arrow: "left",
       points: [],
