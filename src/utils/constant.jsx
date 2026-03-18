@@ -1,82 +1,82 @@
 // registration
-import regStep1 from "../assets/flow/registration/Step_1.png";
-import regStep2 from "../assets/flow/registration/Step_2.png";
-import regStep3 from "../assets/flow/registration/Step_3.png";
-import regStep4 from "../assets/flow/registration/Step_4.png";
-import regStep5 from "../assets/flow/registration/Step_5.png";
-import regStep6 from "../assets/flow/registration/Step_6.png";
-import regStep7 from "../assets/flow/registration/Step_7.png";
-import regStep8 from "../assets/flow/registration/Step_8.png";
-import regStep9 from "../assets/flow/registration/Step_9.png";
-import regStep10 from "../assets/flow/registration/Step_10.png";
-import regStep11 from "../assets/flow/registration/Step_11.png";
+import regStep1 from "../assets/flows/registration/Step_1.png";
+import regStep2 from "../assets/flows/registration/Step_2.png";
+import regStep3 from "../assets/flows/registration/Step_3.png";
+import regStep4 from "../assets/flows/registration/Step_4.png";
+import regStep5 from "../assets/flows/registration/Step_5.png";
+import regStep6 from "../assets/flows/registration/Step_6.png";
+import regStep7 from "../assets/flows/registration/Step_7.png";
+import regStep8 from "../assets/flows/registration/Step_8.png";
+import regStep9 from "../assets/flows/registration/Step_9.png";
+import regStep10 from "../assets/flows/registration/Step_10.png";
+import regStep11 from "../assets/flows/registration/Step_11.png";
 
 // subscription
-import subStep1 from "../assets/flow/subscription/Step_1.png";
-import subStep2 from "../assets/flow/subscription/Step_2.png";
-import subStep3 from "../assets/flow/subscription/Step_3.png";
+import subStep1 from "../assets/flows/subscription/Step_1.png";
+import subStep2 from "../assets/flows/subscription/Step_2.png";
+import subStep3 from "../assets/flows/subscription/Step_3.png";
 
 // installation
-import installStep1 from "../assets/flow/installation/Step_1.png";
-import installStep2 from "../assets/flow/installation/Step_2.png";
-import installStep3 from "../assets/flow/installation/Step_3.jpg";
-import installStep4 from "../assets/flow/installation/Step_4.jpg";
-import installStep5 from "../assets/flow/installation/Step_5.jpg";
-import installStep6 from "../assets/flow/installation/Step_6.jpg";
-import installStep7 from "../assets/flow/installation/Step_7.jpg";
-import installStep8 from "../assets/flow/installation/Step_8.jpg";
-import installStep9 from "../assets/flow/installation/Step_9.jpg";
-import installStep10 from "../assets/flow/installation/Step_10.jpg";
-import installStep11 from "../assets/flow/installation/Step_11.jpg";
+import installStep1 from "../assets/flows/installation/Step_1.png";
+import installStep2 from "../assets/flows/installation/Step_2.png";
+import installStep3 from "../assets/flows/installation/Step_3.jpg";
+import installStep4 from "../assets/flows/installation/Step_4.jpg";
+import installStep5 from "../assets/flows/installation/Step_5.jpg";
+import installStep6 from "../assets/flows/installation/Step_6.jpg";
+import installStep7 from "../assets/flows/installation/Step_7.jpg";
+import installStep8 from "../assets/flows/installation/Step_8.jpg";
+import installStep9 from "../assets/flows/installation/Step_9.jpg";
+import installStep10 from "../assets/flows/installation/Step_10.jpg";
+import installStep11 from "../assets/flows/installation/Step_11.jpg";
 
 // account linking
-import accLinkStep1 from "../assets/flow/account-linking/Step_1.jpg";
-import accLinkStep2 from "../assets/flow/account-linking/Step_2.jpg";
-import accLinkStep3 from "../assets/flow/account-linking/Step_3.jpg";
-import accLinkStep4 from "../assets/flow/account-linking/Step_4.jpg";
-import accLinkStep5 from "../assets/flow/account-linking/Step_5.jpg";
-import accLinkStep6 from "../assets/flow/account-linking/Step_6.jpg";
-import accLinkStep7 from "../assets/flow/account-linking/Step_7.jpg";
-import accLinkStep8 from "../assets/flow/account-linking/Step_8.jpg";
-import accLinkStep9 from "../assets/flow/account-linking/Step_9.jpg";
-import accLinkStep10 from "../assets/flow/account-linking/Step_10.jpg";
-import accLinkStep11 from "../assets/flow/account-linking/Step_11.jpg";
-import accLinkStep12 from "../assets/flow/account-linking/Step_12.jpg";
+import accLinkStep1 from "../assets/flows/account-linking/Step_1.jpg";
+import accLinkStep2 from "../assets/flows/account-linking/Step_2.jpg";
+import accLinkStep3 from "../assets/flows/account-linking/Step_3.jpg";
+import accLinkStep4 from "../assets/flows/account-linking/Step_4.jpg";
+import accLinkStep5 from "../assets/flows/account-linking/Step_5.jpg";
+import accLinkStep6 from "../assets/flows/account-linking/Step_6.jpg";
+import accLinkStep7 from "../assets/flows/account-linking/Step_7.jpg";
+import accLinkStep8 from "../assets/flows/account-linking/Step_8.jpg";
+import accLinkStep9 from "../assets/flows/account-linking/Step_9.jpg";
+import accLinkStep10 from "../assets/flows/account-linking/Step_10.jpg";
+import accLinkStep11 from "../assets/flows/account-linking/Step_11.jpg";
+import accLinkStep12 from "../assets/flows/account-linking/Step_12.jpg";
 
 // token generation
-import tokenGenStep1 from "../assets/flow/token-generation/Step_1.jpg";
-import tokenGenStep2 from "../assets/flow/token-generation/Step_2.jpg";
-import tokenGenStep3 from "../assets/flow/token-generation/Step_3.jpg";
-import tokenGenStep4 from "../assets/flow/token-generation/Step_4.jpg";
-import tokenGenStep5 from "../assets/flow/token-generation/Step_5.png";
-import tokenGenStep6 from "../assets/flow/token-generation/Step_6.png";
-import tokenGenStep7 from "../assets/flow/token-generation/Step_7.png";
-import tokenGenStep8 from "../assets/flow/token-generation/Step_8.png";
-import tokenGenStep9 from "../assets/flow/token-generation/Step_9.png";
-import tokenGenStep10 from "../assets/flow/token-generation/Step_10.png";
-import tokenGenStep11 from "../assets/flow/token-generation/Step_11.png";
-import tokenGenStep12 from "../assets/flow/token-generation/Step_12.jpg";
-import tokenGenStep13 from "../assets/flow/token-generation/Step_13.jpg";
-import tokenGenStep14 from "../assets/flow/token-generation/Step_14.jpg";
-import tokenGenStep15 from "../assets/flow/token-generation/Step_15.jpg";
+import tokenGenStep1 from "../assets/flows/token-generation/Step_1.jpg";
+import tokenGenStep2 from "../assets/flows/token-generation/Step_2.jpg";
+import tokenGenStep3 from "../assets/flows/token-generation/Step_3.jpg";
+import tokenGenStep4 from "../assets/flows/token-generation/Step_4.jpg";
+import tokenGenStep5 from "../assets/flows/token-generation/Step_5.png";
+import tokenGenStep6 from "../assets/flows/token-generation/Step_6.png";
+import tokenGenStep7 from "../assets/flows/token-generation/Step_7.png";
+import tokenGenStep8 from "../assets/flows/token-generation/Step_8.png";
+import tokenGenStep9 from "../assets/flows/token-generation/Step_9.png";
+import tokenGenStep10 from "../assets/flows/token-generation/Step_10.png";
+import tokenGenStep11 from "../assets/flows/token-generation/Step_11.png";
+import tokenGenStep12 from "../assets/flows/token-generation/Step_12.jpg";
+import tokenGenStep13 from "../assets/flows/token-generation/Step_13.jpg";
+import tokenGenStep14 from "../assets/flows/token-generation/Step_14.jpg";
+import tokenGenStep15 from "../assets/flows/token-generation/Step_15.jpg";
 
 // corp id, user id
-import corpStep1 from "../assets/flow/corpid-userid/Step_1.jpg";
-import corpStep2 from "../assets/flow/corpid-userid/Step_2.jpg";
-import corpStep3 from "../assets/flow/corpid-userid/Step_3.jpg";
-import corpStep4 from "../assets/flow/corpid-userid/Step_4.jpg";
-import corpStep5 from "../assets/flow/corpid-userid/Step_5.jpg";
-import corpStep6 from "../assets/flow/corpid-userid/Step_6.png";
-import corpStep7 from "../assets/flow/corpid-userid/Step_7.png";
-import corpStep8 from "../assets/flow/corpid-userid/Step_8.png";
-import corpStep9 from "../assets/flow/corpid-userid/Step_9.png";
-import corpStep10 from "../assets/flow/corpid-userid/Step_10.png";
-import corpStep11 from "../assets/flow/corpid-userid/Step_11.png";
-import corpStep12 from "../assets/flow/corpid-userid/Step_12.png";
-import corpStep13 from "../assets/flow/corpid-userid/Step_13.png";
-import corpStep14 from "../assets/flow/corpid-userid/Step_14.jpg";
-import corpStep15 from "../assets/flow/corpid-userid/Step_15.jpg";
-import corpStep16 from "../assets/flow/corpid-userid/Step_16.jpg";
+import corpStep1 from "../assets/flows/corpid-userid/Step_1.jpg";
+import corpStep2 from "../assets/flows/corpid-userid/Step_2.jpg";
+import corpStep3 from "../assets/flows/corpid-userid/Step_3.jpg";
+import corpStep4 from "../assets/flows/corpid-userid/Step_4.jpg";
+import corpStep5 from "../assets/flows/corpid-userid/Step_5.jpg";
+import corpStep6 from "../assets/flows/corpid-userid/Step_6.png";
+import corpStep7 from "../assets/flows/corpid-userid/Step_7.png";
+import corpStep8 from "../assets/flows/corpid-userid/Step_8.png";
+import corpStep9 from "../assets/flows/corpid-userid/Step_9.png";
+import corpStep10 from "../assets/flows/corpid-userid/Step_10.png";
+import corpStep11 from "../assets/flows/corpid-userid/Step_11.png";
+import corpStep12 from "../assets/flows/corpid-userid/Step_12.png";
+import corpStep13 from "../assets/flows/corpid-userid/Step_13.png";
+import corpStep14 from "../assets/flows/corpid-userid/Step_14.jpg";
+import corpStep15 from "../assets/flows/corpid-userid/Step_15.jpg";
+import corpStep16 from "../assets/flows/corpid-userid/Step_16.jpg";
 
 export const demoCardDetails = [
   {
@@ -890,7 +890,7 @@ export const flowData = {
       image: corpStep8,
       title: "",
       note: "Select the Connected Banking option present on the Left-Hand side bar",
-      position: { top: "80%", left: "29.5%", width: "25%" },
+      position: { top: "80%", left: "29.1%", width: "25%" },
       arrow: "left",
       points: [],
     },
@@ -954,7 +954,7 @@ export const flowData = {
       image: corpStep15,
       title: "",
       note: "Approved status will be displayed",
-      position: { top: "17.4%", left: "83%", width: "34%" },
+      position: { top: "17.4%", left: "79%", width: "25%" },
       arrow: "left",
       points: [],
     },

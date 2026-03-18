@@ -4,7 +4,7 @@ import { flowData } from "../utils/constant";
 
 export default function FlowGuide() {
   const [step, setStep] = useState(0);
-  const [fitMode, setFitMode] = useState("width"); // "width" | "height"
+  const [fitMode, setFitMode] = useState("width");
   const imgRef = useRef(null);
 
   const navigate = useNavigate();
@@ -24,7 +24,6 @@ export default function FlowGuide() {
     if (step > 0) setStep(step - 1);
   };
 
-  // 🔥 Preload next image
   useEffect(() => {
     const nextImage = slides[step + 1]?.image;
     if (!nextImage) return;
@@ -32,7 +31,6 @@ export default function FlowGuide() {
     img.src = nextImage;
   }, [step, slides]);
 
-  // 🔥 Smart fit calculation
   const handleImageLoad = () => {
     const img = imgRef.current;
     if (!img) return;
@@ -41,21 +39,17 @@ export default function FlowGuide() {
     const screenRatio = window.innerWidth / window.innerHeight;
 
     if (imgRatio > screenRatio) {
-      // Image is wider → fit width
       setFitMode("width");
     } else {
-      // Image is taller → fit height
       setFitMode("height");
     }
   };
 
-  // 🔥 Recalculate on resize
   useEffect(() => {
     window.addEventListener("resize", handleImageLoad);
     return () => window.removeEventListener("resize", handleImageLoad);
   }, []);
 
-  // 🔥 Keyboard nav
   useEffect(() => {
     const handleKey = (e) => {
       if (e.key === "ArrowRight" || e.key === "Enter") {
@@ -72,7 +66,6 @@ export default function FlowGuide() {
   return (
     <div className="w-full h-screen flex items-center justify-center overflow-hidden">
       <div className="relative">
-        {/* ✅ Smart Image */}
         <img
           ref={imgRef}
           src={currentSlide.image}
@@ -84,8 +77,6 @@ export default function FlowGuide() {
               : "h-screen w-auto object-contain"
           }
         />
-
-        {/* Overlay */}
         <div className="absolute inset-0">
           <div
             className="absolute -translate-x-1/2 -translate-y-1/2"
