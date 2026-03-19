@@ -78,6 +78,21 @@ import corpStep14 from "../assets/flows/corpid-userid/Step_14.jpg";
 import corpStep15 from "../assets/flows/corpid-userid/Step_15.jpg";
 import corpStep16 from "../assets/flows/corpid-userid/Step_16.jpg";
 
+// account aggregator
+import accAggStep1 from "../assets/flows/account-aggregator/Step_1.jpg";
+import accAggStep2 from "../assets/flows/account-aggregator/Step_2.jpg";
+import accAggStep3 from "../assets/flows/account-aggregator/Step_3.jpg";
+import accAggStep4 from "../assets/flows/account-aggregator/Step_4.jpg";
+import accAggStep5 from "../assets/flows/account-aggregator/Step_5.jpg";
+import accAggStep6 from "../assets/flows/account-aggregator/Step_6.jpg";
+import accAggStep7 from "../assets/flows/account-aggregator/Step_7.jpg";
+import accAggStep8 from "../assets/flows/account-aggregator/Step_8.jpg";
+import accAggStep9 from "../assets/flows/account-aggregator/Step_9.jpg";
+import accAggStep10 from "../assets/flows/account-aggregator/Step_10.jpg";
+import accAggStep11 from "../assets/flows/account-aggregator/Step_11.jpg";
+import accAggStep12 from "../assets/flows/account-aggregator/Step_12.jpg";
+import accAggStep13 from "../assets/flows/account-aggregator/Step_13.jpg";
+
 export const demoCardDetails = [
   {
     title: "Payments",
@@ -255,7 +270,7 @@ export const featureData = {
       "Fetch Account Statement of other bank Current and Saving accounts from your ERP",
     ],
     note: "In this demo, let’s see how the Account Aggregator Features work",
-    route: "",
+    route: "account-aggregator-flow",
   },
   registration: {
     title: "Registration",
@@ -966,5 +981,184 @@ export const flowData = {
       arrow: "",
       points: [],
     },
+  ],
+  "account-aggregator-flow": [
+    {
+      image: accAggStep1,
+      title: "",
+      note: "Go to “Alt+F3: Configure Accounts” on Bank Plugin Dashboard",
+      position: { top: "55%", left: "64%", width: "30%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: accAggStep1,
+      title: "",
+      note: "Note: Select the other bank ledger and click on “F5: Enable E-Banking”",
+      position: { top: "47%", left: "69%", width: "30%" },
+      arrow: "top",
+      points: [
+        "Select the other bank ledger and click on “F5: Enable E-Banking”",
+      ],
+    },
+    {
+      image: accAggStep2,
+      title: "",
+      note: "Note: Only Proprietorship and Individual Account Statements can be fetched",
+      position: { top: "58.6%", left: "80%", width: "30%" },
+      arrow: "left",
+      points: ["Enter required details"],
+    },
+    {
+      image: accAggStep3,
+      title: "",
+      note: "Press enter to redirect",
+      position: { top: "71.3%", left: "54%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: accAggStep4,
+      title: "",
+      note: "You will be redirected to Account Aggregator website and an OTP will be triggered to mobile number mentioned",
+      position: { top: "72%", left: "55%", width: "30%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: accAggStep5,
+      title: "",
+      note: "Enter the OTP",
+      position: { top: "70.3%", left: "50%", width: "30%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: accAggStep6,
+      title: "",
+      note: "Select bank account",
+      position: { top: "84.5%", left: "79%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: accAggStep6,
+      title: "",
+      note: "Click on Request for OTP",
+      position: { top: "81%", left: "50%", width: "25%" },
+      arrow: "bottom",
+      points: [],
+    },
+    {
+      image: accAggStep7,
+      title: "",
+      note: "Enter the OTP and click on Submit OTP",
+      position: { top: "80%", left: "80%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: accAggStep8,
+      title: "",
+      note: "Approve the account for which statement needs to be fetched.",
+      position: { top: "62%", left: "60.5%", width: "30%" },
+      arrow: "bottom",
+      points: [],
+    },
+    {
+      image: accAggStep9,
+      title: "",
+      note: "Provide the Consent by clicking on “Approve Consent”",
+      position: { top: "89%", left: "18%", width: "32%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: accAggStep10,
+      title: "",
+      note: "",
+      position: { top: "50%", left: "75%", width: "32%" },
+      arrow: "left",
+      points: [
+        "Process completed. You can now fetch Statement of banks other than ICICI Bank.",
+        "Please return to Tally to check the status.",
+      ],
+    },
+    {
+      image: accAggStep11,
+      title: "",
+      note: "Note: If the account is not linked automatically, use Link Ledger option to link Bank Ledger against bank account",
+      position: { top: "58%", left: "73%", width: "32%" },
+      arrow: "top",
+      points: [
+        "Press Enter to refresh status. Your bank account linked successfully with the bank ledger",
+      ],
+    },
+    // {
+    //   image: accAggStep4,
+    //   title: "",
+    //   note: "Note: If the account is not linked automatically, use Link Ledger option to link Bank Ledger against bank account",
+    //   position: { top: "55.6%", left: "73%", width: "32%" },
+    //   arrow: "left",
+    //   points: [
+    //     "Press Enter to refresh status. Your bank account linked successfully with the bank ledger.",
+    //   ],
+    // },
+    // {
+    //   image: accAggStep4,
+    //   title: "",
+    //   note: "Go to “F5: Bank Recon",
+    //   position: { top: "74%", left: "77%", width: "25%" },
+    //   arrow: "right",
+    //   points: [],
+    // },
+    // {
+    //   image: accAggStep12,
+    //   title: "",
+    //   note: "Select the Bank Ledger.",
+    //   position: { top: "17.5%", left: "77%", width: "25%" },
+    //   arrow: "left",
+    //   points: [],
+    // },
+    // {
+    //   image: accAggStep13,
+    //   title: "",
+    //   note: "Note: Time functionality is applicable only for fetching current date statement",
+    //   position: { top: "48%", left: "72%", width: "30%" },
+    //   arrow: "left",
+    //   points: ["Select date and time."],
+    // },
+    // {
+    //   image: accAggStep13,
+    //   title: "",
+    //   note: "Press “Yes” for previously fetched statement or Press “No” for new statement.",
+    //   position: { top: "48%", left: "70%", width: "30%" },
+    //   arrow: "left",
+    //   points: [],
+    // },
+    // {
+    //   image: accAggStep13,
+    //   title: "",
+    //   note: "If latest statement is required, then request will be placed to fetch the account statement.",
+    //   position: { top: "48%", left: "75%", width: "30%" },
+    //   arrow: "left",
+    //   points: [],
+    // },
+    // {
+    //   image: accAggStep13,
+    //   title: "",
+    //   note: "Your Bank Statement is now displayed under Bank Book. You can reconcile your vouchers against these entries",
+    //   position: { top: "48%", left: "72%", width: "32%" },
+    //   arrow: "left",
+    //   points: ["Press “Yes” to Refresh Fetch Status or “No” to Exit."],
+    // },
+    // {
+    //   image: accAggStep13,
+    //   title: "",
+    //   note: "Select the entry and click on “F10: Create/Match Voucher”.",
+    //   position: { top: "48%", left: "70%", width: "32%" },
+    //   arrow: "left",
+    //   points: [],
+    // },
   ],
 };

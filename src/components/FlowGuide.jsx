@@ -8,7 +8,7 @@ export default function FlowGuide() {
   const imgRef = useRef(null);
 
   const navigate = useNavigate();
-  const { flowId } = useParams();
+  const { flowId } = useParams(); 
 
   const slides = flowData[flowId] || [];
   if (!slides.length) return null;
