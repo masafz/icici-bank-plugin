@@ -339,6 +339,7 @@ export const flowData = {
     {
       image: regStep1,
       title: "Welcome To Bank Plugin Home Page",
+      note: "",
       position: { top: "67.5%", left: "47%", width: "32%" },
       arrow: "left",
       points: [
@@ -349,6 +350,7 @@ export const flowData = {
     {
       image: regStep2,
       title: "Register Now Option",
+      note: "",
       position: { top: "72.5%", left: "42%", width: "30%" },
       arrow: "left",
       points: ["Click on Register Now"],
@@ -984,11 +986,11 @@ export const flowData = {
   ],
   "account-aggregator-flow": [
     {
-      image: accAggStep1,
+      image: accLinkStep1,
       title: "",
       note: "Go to “Alt+F3: Configure Accounts” on Bank Plugin Dashboard",
-      position: { top: "55%", left: "64%", width: "30%" },
-      arrow: "top",
+      position: { top: "13%", left: "74%", width: "30%" },
+      arrow: "right",
       points: [],
     },
     {
@@ -1018,19 +1020,30 @@ export const flowData = {
       points: [],
     },
     {
-      image: accAggStep4,
-      title: "",
-      note: "You will be redirected to Account Aggregator website and an OTP will be triggered to mobile number mentioned",
-      position: { top: "72%", left: "55%", width: "30%" },
-      arrow: "left",
-      points: [],
-    },
-    {
       image: accAggStep5,
       title: "",
-      note: "Enter the OTP",
-      position: { top: "70.3%", left: "50%", width: "30%" },
-      arrow: "top",
+      note: "",
+      position: { top: "50%", left: "83%", width: "30%" },
+      arrow: "left",
+      points: [
+        "You will be redirected to Account Aggregator website and an OTP will be triggered to mobile number mentioned",
+        "Enter the OTP",
+      ],
+    },
+    // {
+    //   image: accAggStep5,
+    //   title: "",
+    //   note: "Enter the OTP",
+    //   position: { top: "70.3%", left: "50%", width: "30%" },
+    //   arrow: "top",
+    //   points: [],
+    // },
+    {
+      image: accAggStep8,
+      title: "",
+      note: "Approve the account for which statement needs to be fetched.",
+      position: { top: "62%", left: "60.5%", width: "30%" },
+      arrow: "bottom",
       points: [],
     },
     {
@@ -1058,14 +1071,6 @@ export const flowData = {
       points: [],
     },
     {
-      image: accAggStep8,
-      title: "",
-      note: "Approve the account for which statement needs to be fetched.",
-      position: { top: "62%", left: "60.5%", width: "30%" },
-      arrow: "bottom",
-      points: [],
-    },
-    {
       image: accAggStep9,
       title: "",
       note: "Provide the Consent by clicking on “Approve Consent”",
@@ -1088,7 +1093,7 @@ export const flowData = {
       image: accAggStep11,
       title: "",
       note: "Note: If the account is not linked automatically, use Link Ledger option to link Bank Ledger against bank account",
-      position: { top: "58%", left: "73%", width: "32%" },
+      position: { top: "57%", left: "73%", width: "34%" },
       arrow: "top",
       points: [
         "Press Enter to refresh status. Your bank account linked successfully with the bank ledger",
