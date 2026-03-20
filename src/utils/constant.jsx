@@ -90,8 +90,25 @@ import accAggStep8 from "../assets/flows/account-aggregator/Step_8.jpg";
 import accAggStep9 from "../assets/flows/account-aggregator/Step_9.jpg";
 import accAggStep10 from "../assets/flows/account-aggregator/Step_10.jpg";
 import accAggStep11 from "../assets/flows/account-aggregator/Step_11.jpg";
-import accAggStep12 from "../assets/flows/account-aggregator/Step_12.jpg";
-import accAggStep13 from "../assets/flows/account-aggregator/Step_13.jpg";
+
+// single payment
+import singleStep1 from "../assets/flows/single-payment/Step_1.jpg";
+import singleStep2 from "../assets/flows/single-payment/Step_2.jpg";
+import singleStep3 from "../assets/flows/single-payment/Step_3.jpg";
+import singleStep4 from "../assets/flows/single-payment/Step_4.jpg";
+import singleStep5 from "../assets/flows/single-payment/Step_5.jpg";
+import singleStep6 from "../assets/flows/single-payment/Step_6.jpg";
+import singleStep7 from "../assets/flows/single-payment/Step_7.jpg";
+import singleStep8 from "../assets/flows/single-payment/Step_8.jpg";
+import singleStep9 from "../assets/flows/single-payment/Step_9.jpg";
+import singleStep10 from "../assets/flows/single-payment/Step_10.jpg";
+import singleStep11 from "../assets/flows/single-payment/Step_11.jpg";
+import singleStep12 from "../assets/flows/single-payment/Step_12.jpg";
+import singleStep13 from "../assets/flows/single-payment/Step_13.jpg";
+import singleStep14 from "../assets/flows/single-payment/Step_14.jpg";
+import singleStep15 from "../assets/flows/single-payment/Step_15.jpg";
+import singleStep16 from "../assets/flows/single-payment/Step_16.jpg";
+import singleStep17 from "../assets/flows/single-payment/Step_17.jpg";
 
 export const demoCardDetails = [
   {
@@ -205,7 +222,7 @@ export const featureData = {
       "Ensure safety with Token and OTP validation",
     ],
     note: "In this demo, let’s see how the Single Payment Features work",
-    route: "",
+    route: "single-payment-flow",
   },
   "bharat-connect": {
     title: "Bharat Connect (B2B)",
@@ -1099,71 +1116,146 @@ export const flowData = {
         "Press Enter to refresh status. Your bank account linked successfully with the bank ledger",
       ],
     },
-    // {
-    //   image: accAggStep4,
-    //   title: "",
-    //   note: "Note: If the account is not linked automatically, use Link Ledger option to link Bank Ledger against bank account",
-    //   position: { top: "55.6%", left: "73%", width: "32%" },
-    //   arrow: "left",
-    //   points: [
-    //     "Press Enter to refresh status. Your bank account linked successfully with the bank ledger.",
-    //   ],
-    // },
-    // {
-    //   image: accAggStep4,
-    //   title: "",
-    //   note: "Go to “F5: Bank Recon",
-    //   position: { top: "74%", left: "77%", width: "25%" },
-    //   arrow: "right",
-    //   points: [],
-    // },
-    // {
-    //   image: accAggStep12,
-    //   title: "",
-    //   note: "Select the Bank Ledger.",
-    //   position: { top: "17.5%", left: "77%", width: "25%" },
-    //   arrow: "left",
-    //   points: [],
-    // },
-    // {
-    //   image: accAggStep13,
-    //   title: "",
-    //   note: "Note: Time functionality is applicable only for fetching current date statement",
-    //   position: { top: "48%", left: "72%", width: "30%" },
-    //   arrow: "left",
-    //   points: ["Select date and time."],
-    // },
-    // {
-    //   image: accAggStep13,
-    //   title: "",
-    //   note: "Press “Yes” for previously fetched statement or Press “No” for new statement.",
-    //   position: { top: "48%", left: "70%", width: "30%" },
-    //   arrow: "left",
-    //   points: [],
-    // },
-    // {
-    //   image: accAggStep13,
-    //   title: "",
-    //   note: "If latest statement is required, then request will be placed to fetch the account statement.",
-    //   position: { top: "48%", left: "75%", width: "30%" },
-    //   arrow: "left",
-    //   points: [],
-    // },
-    // {
-    //   image: accAggStep13,
-    //   title: "",
-    //   note: "Your Bank Statement is now displayed under Bank Book. You can reconcile your vouchers against these entries",
-    //   position: { top: "48%", left: "72%", width: "32%" },
-    //   arrow: "left",
-    //   points: ["Press “Yes” to Refresh Fetch Status or “No” to Exit."],
-    // },
-    // {
-    //   image: accAggStep13,
-    //   title: "",
-    //   note: "Select the entry and click on “F10: Create/Match Voucher”.",
-    //   position: { top: "48%", left: "70%", width: "32%" },
-    //   arrow: "left",
-    //   points: [],
-    // },
+  ],
+  "single-payment-flow": [
+    {
+      image: singleStep1,
+      title: "",
+      note: "Login with Mobile number and Password mentioned during Product Registration",
+      position: { top: "57%", left: "73%", width: "30%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep2,
+      title: "",
+      note: "Click on F6: Initiate Payment",
+      position: { top: "73%", left: "45%", width: "30%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: singleStep3,
+      title: "",
+      note: "Select the Bank Ledger",
+      position: { top: "18.1%", left: "51%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: singleStep4,
+      title: "",
+      note: "Select the Date Range",
+      position: { top: "58%", left: "55%", width: "28%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep5,
+      title: "",
+      note: " Select ‘Not Initiated’ or ‘Failed’ vouchers from the screen",
+      position: { top: "45%", left: "75%", width: "28%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: singleStep6,
+      title: "",
+      note: "Press F7: Pay now",
+      position: { top: "52%", left: "75%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: singleStep7,
+      title: "",
+      note: "Select the Payment Mode",
+      position: { top: "20.3%", left: "64.5%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: singleStep8,
+      title: "",
+      note: "Enter the Beneficiary Email ID",
+      position: { top: "62.5%", left: "75%", width: "28%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep9,
+      title: "",
+      note: "Enter the Payment Advice Remarks",
+      position: { top: "72%", left: "75%", width: "28%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep10,
+      title: "",
+      note: "",
+      position: { top: "78.5%", left: "73.5%", width: "30%" },
+      arrow: "left",
+      points: [
+        "OTP will be received on Registered Mobile No of Current Account against the UserID.",
+        "If Maker-Checker workflow is present, then Checker has to approve the transaction on CIB",
+      ],
+    },
+    {
+      image: singleStep11,
+      title: "",
+      note: "OTP generated successfully",
+      position: { top: "75%", left: "60%", width: "25%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: singleStep12,
+      title: "",
+      note: "Enter the OTP",
+      position: { top: "78.5%", left: "69%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep13,
+      title: "",
+      note: "Accept the Yes Button",
+      position: { top: "89%", left: "48%", width: "25%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: singleStep14,
+      title: "",
+      note: "Payment initiated successfully",
+      position: { top: "85%", left: "66%", width: "25%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: singleStep15,
+      title: "",
+      note: "The status gets reflected as ‘Pending’",
+      position: { top: "30%", left: "58%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: singleStep16,
+      title: "",
+      note: "Click on F11: Refresh Status to refresh the status of the transaction initiated",
+      position: { top: "83%", left: "62%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: singleStep17,
+      title: "",
+      note: "The status changes to “Success”",
+      position: { top: "40.5%", left: "75%", width: "30%" },
+      arrow: "top",
+      points: [],
+    },
   ],
 };
