@@ -126,7 +126,7 @@ export default function FlowGuide() {
               <div className="flex justify-end mt-3">
                 <button
                   onClick={nextStep}
-                  className="bg-[#DB620A] hover:bg-[#DB620ACC] text-white text-sm font-medium px-3 py-1 rounded transition cursor-pointer"
+                  className="bg-[#DB620A] hover:bg-[#DB620ACC] text-white text-sm font-medium px-3 py-1 rounded transition cursor-pointer outline-none"
                 >
                   {step === slides.length - 1 ? "Finish" : "Next >>"}
                 </button>
