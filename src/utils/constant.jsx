@@ -120,6 +120,19 @@ import singleStep27 from "../assets/flows/single-payment/Step_27.png";
 import singleStep28 from "../assets/flows/single-payment/Step_28.png";
 import singleStep29 from "../assets/flows/single-payment/Step_29.png";
 import singleStep30 from "../assets/flows/single-payment/Step_30.png";
+import singleStep31 from "../assets/flows/single-payment/Step_31.jpg";
+import singleStep32 from "../assets/flows/single-payment/Step_32.jpg";
+import singleStep33 from "../assets/flows/single-payment/Step_33.jpg";
+import singleStep34 from "../assets/flows/single-payment/Step_34.jpg";
+import singleStep35 from "../assets/flows/single-payment/Step_35.jpg";
+import singleStep36 from "../assets/flows/single-payment/Step_36.jpg";
+import singleStep37 from "../assets/flows/single-payment/Step_37.jpg";
+import singleStep38 from "../assets/flows/single-payment/Step_38.jpg";
+import singleStep39 from "../assets/flows/single-payment/Step_39.jpg";
+import singleStep40 from "../assets/flows/single-payment/Step_40.jpg";
+import singleStep41 from "../assets/flows/single-payment/Step_41.png";
+import singleStep42 from "../assets/flows/single-payment/Step_42.jpg";
+import singleStep43 from "../assets/flows/single-payment/Step_43.png";
 
 export const demoCardDetails = [
   {
@@ -1372,6 +1385,115 @@ export const flowData = {
       title: "",
       note: "Accept the Yes Button",
       position: { top: "47.2%", left: "76%", width: "25%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: singleStep31,
+      title: "",
+      note: "Note: Voucher will be auto created in Suspense Account and will be auto reconciled",
+      position: { top: "60%", left: "77%", width: "25%" },
+      arrow: "right",
+      points: [
+        "Click on Ad hoc Voucher F10 if party ledger is not created and only account details are available",
+      ],
+    },
+    {
+      image: singleStep32,
+      title: "",
+      note: "Mention Payee Name",
+      position: { top: "54%", left: "65%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep33,
+      title: "",
+      note: "Enter the Account Number",
+      position: { top: "38.5%", left: "66%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep34,
+      title: "",
+      note: "Enter the IFSC Code",
+      position: { top: "41%", left: "66%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep35,
+      title: "",
+      note: "Select the Bank",
+      position: { top: "43%", left: "66%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep36,
+      title: "",
+      note: "Enter the Amount",
+      position: { top: "45.5%", left: "66%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep37,
+      title: "",
+      note: "Select the transfer mode",
+      position: { top: "50%", left: "66%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep38,
+      title: "",
+      note: "Enter the Bank Remark",
+      position: { top: "66%", left: "66%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep39,
+      title: "",
+      note: "Enter the Payment advice remarks",
+      position: { top: "69.5%", left: "66%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep40,
+      title: "",
+      note: "",
+      position: { top: "65%", left: "70%", width: "25%" },
+      arrow: "top",
+      points: [
+        "Note: OTP will be received on Registered Mobile No of Current Account against the UserID.",
+        "If Maker-Checker workflow is present, then Checker has to approve the transaction on CIB",
+      ],
+    },
+    {
+      image: singleStep41,
+      title: "",
+      note: "OTP generated successfully",
+      position: { top: "88%"  , left: "52%", width: "25%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: singleStep42,
+      title: "",
+      note: "Enter the OTP",
+      position: { top: "74.5%"  , left: "65%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep43,
+      title: "",
+      note: "Accept the Yes Button",
+      position: { top: "47%"  , left: "76%", width: "25%" },
       arrow: "right",
       points: [],
     },
