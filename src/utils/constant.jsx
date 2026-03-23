@@ -67,7 +67,7 @@ import corpStep3 from "../assets/flows/corpid-userid/Step_3.jpg";
 import corpStep4 from "../assets/flows/corpid-userid/Step_4.jpg";
 import corpStep5 from "../assets/flows/corpid-userid/Step_5.jpg";
 import corpStep6 from "../assets/flows/corpid-userid/Step_6.png";
-import corpStep7 from "../assets/flows/corpid-userid/Step_7.png";
+// import corpStep7 from "../assets/flows/corpid-userid/Step_7.png";
 import corpStep8 from "../assets/flows/corpid-userid/Step_8.png";
 import corpStep9 from "../assets/flows/corpid-userid/Step_9.png";
 import corpStep10 from "../assets/flows/corpid-userid/Step_10.png";
@@ -76,13 +76,11 @@ import corpStep12 from "../assets/flows/corpid-userid/Step_12.png";
 import corpStep13 from "../assets/flows/corpid-userid/Step_13.png";
 import corpStep14 from "../assets/flows/corpid-userid/Step_14.jpg";
 import corpStep15 from "../assets/flows/corpid-userid/Step_15.jpg";
-import corpStep16 from "../assets/flows/corpid-userid/Step_16.jpg";
 
 // account aggregator
 import accAggStep1 from "../assets/flows/account-aggregator/Step_1.jpg";
 import accAggStep2 from "../assets/flows/account-aggregator/Step_2.jpg";
 import accAggStep3 from "../assets/flows/account-aggregator/Step_3.jpg";
-import accAggStep4 from "../assets/flows/account-aggregator/Step_4.jpg";
 import accAggStep5 from "../assets/flows/account-aggregator/Step_5.jpg";
 import accAggStep6 from "../assets/flows/account-aggregator/Step_6.jpg";
 import accAggStep7 from "../assets/flows/account-aggregator/Step_7.jpg";
@@ -109,6 +107,19 @@ import singleStep14 from "../assets/flows/single-payment/Step_14.jpg";
 import singleStep15 from "../assets/flows/single-payment/Step_15.jpg";
 import singleStep16 from "../assets/flows/single-payment/Step_16.jpg";
 import singleStep17 from "../assets/flows/single-payment/Step_17.jpg";
+import singleStep18 from "../assets/flows/single-payment/Step_18.jpg";
+import singleStep19 from "../assets/flows/single-payment/Step_19.jpg";
+import singleStep20 from "../assets/flows/single-payment/Step_20.jpg";
+import singleStep21 from "../assets/flows/single-payment/Step_21.jpg";
+import singleStep22 from "../assets/flows/single-payment/Step_22.jpg";
+import singleStep23 from "../assets/flows/single-payment/Step_23.jpg";
+import singleStep24 from "../assets/flows/single-payment/Step_24.jpg";
+import singleStep25 from "../assets/flows/single-payment/Step_25.jpg";
+import singleStep26 from "../assets/flows/single-payment/Step_26.jpg";
+import singleStep27 from "../assets/flows/single-payment/Step_27.png";
+import singleStep28 from "../assets/flows/single-payment/Step_28.png";
+import singleStep29 from "../assets/flows/single-payment/Step_29.png";
+import singleStep30 from "../assets/flows/single-payment/Step_30.png";
 
 export const demoCardDetails = [
   {
@@ -1255,6 +1266,113 @@ export const flowData = {
       note: "The status changes to “Success”",
       position: { top: "40.5%", left: "75%", width: "30%" },
       arrow: "top",
+      points: [],
+    },
+    {
+      image: singleStep18,
+      title: "",
+      note: "Click on Pay by Ledger (F9) if voucher is not present to directly Pay your vendor, Voucher will be auto-created and auto-reconciled",
+      position: { top: "55%", left: "74%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: singleStep19,
+      title: "",
+      note: "Select Voucher Type as Contra",
+      position: { top: "39%", left: "50%", width: "30%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: singleStep20,
+      title: "",
+      note: "Select the Debit Account Name",
+      position: { top: "42%", left: "69%", width: "30%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: singleStep21,
+      title: "",
+      note: "Select the Beneficiary Ledger",
+      position: { top: "16%", left: "77%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep22,
+      title: "",
+      note: "Select the List of Bank Accounts",
+      position: { top: "57%", left: "50%", width: "25%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: singleStep23,
+      title: "",
+      note: "Enter the amount",
+      position: { top: "45.5%", left: "71%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep24,
+      title: "",
+      note: "Select the transfer mode",
+      position: { top: "20.5%", left: "66%", width: "25%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: singleStep25,
+      title: "",
+      note: "Enter the Beneficiary Email ID",
+      position: { top: "61.5%", left: "75%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep26,
+      title: "",
+      note: "Enter the Payment Advice Remarks",
+      position: { top: "68%", left: "63%", width: "28%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep27,
+      title: "",
+      note: "",
+      position: { top: "63%", left: "72%", width: "28%" },
+      arrow: "top",
+      points: [
+        "Note: OTP will be received on Registered Mobile No of Current Account against the UserID.",
+        "If Maker-Checker workflow is present, then Checker has to approve the transaction on CIB",
+      ],
+    },
+    {
+      image: singleStep28,
+      title: "",
+      note: "OTP generated successfully",
+      position: { top: "88.5%", left: "52%", width: "25%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: singleStep29,
+      title: "",
+      note: "Enter the OTP",
+      position: { top: "62%", left: "55%", width: "25%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep30,
+      title: "",
+      note: "Accept the Yes Button",
+      position: { top: "47.2%", left: "76%", width: "25%" },
+      arrow: "right",
       points: [],
     },
   ],
