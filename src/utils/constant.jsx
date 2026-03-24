@@ -60,7 +60,7 @@ import tokenGenStep13 from "../assets/flows/token-generation/Step_13.jpg";
 import tokenGenStep14 from "../assets/flows/token-generation/Step_14.jpg";
 import tokenGenStep15 from "../assets/flows/token-generation/Step_15.jpg";
 
-// corp id, user id
+// corp id, user id and manage corp id
 import corpStep1 from "../assets/flows/corpid-userid/Step_1.jpg";
 import corpStep2 from "../assets/flows/corpid-userid/Step_2.jpg";
 import corpStep3 from "../assets/flows/corpid-userid/Step_3.jpg";
@@ -116,10 +116,10 @@ import singleStep23 from "../assets/flows/single-payment/Step_23.jpg";
 import singleStep24 from "../assets/flows/single-payment/Step_24.jpg";
 import singleStep25 from "../assets/flows/single-payment/Step_25.jpg";
 import singleStep26 from "../assets/flows/single-payment/Step_26.jpg";
-import singleStep27 from "../assets/flows/single-payment/Step_27.png";
-import singleStep28 from "../assets/flows/single-payment/Step_28.png";
-import singleStep29 from "../assets/flows/single-payment/Step_29.png";
-import singleStep30 from "../assets/flows/single-payment/Step_30.png";
+import singleStep27 from "../assets/flows/single-payment/Step_27.jpg";
+import singleStep28 from "../assets/flows/single-payment/Step_28.jpg";
+import singleStep29 from "../assets/flows/single-payment/Step_29.jpg";
+import singleStep30 from "../assets/flows/single-payment/Step_30.jpg";
 import singleStep31 from "../assets/flows/single-payment/Step_31.jpg";
 import singleStep32 from "../assets/flows/single-payment/Step_32.jpg";
 import singleStep33 from "../assets/flows/single-payment/Step_33.jpg";
@@ -130,9 +130,9 @@ import singleStep37 from "../assets/flows/single-payment/Step_37.jpg";
 import singleStep38 from "../assets/flows/single-payment/Step_38.jpg";
 import singleStep39 from "../assets/flows/single-payment/Step_39.jpg";
 import singleStep40 from "../assets/flows/single-payment/Step_40.jpg";
-import singleStep41 from "../assets/flows/single-payment/Step_41.png";
+import singleStep41 from "../assets/flows/single-payment/Step_41.jpg";
 import singleStep42 from "../assets/flows/single-payment/Step_42.jpg";
-import singleStep43 from "../assets/flows/single-payment/Step_43.png";
+import singleStep43 from "../assets/flows/single-payment/Step_43.jpg";
 
 export const demoCardDetails = [
   {
@@ -1143,22 +1143,6 @@ export const flowData = {
   ],
   "single-payment-flow": [
     {
-      image: singleStep18,
-      title: "Three payment options are available:",
-      note: "<strong>Pay Now –</strong> Pay for an already created voucher.<br/><strong>Pay by Ledger –</strong> Select a ledger and make a payment without creating a voucher.<br/><strong>Ad-hoc Voucher –</strong> Make a one-time payment without creating a ledger.",
-      position: { top: "50%", left: "50%", width: "30%" },
-      arrow: "",
-      points: [],
-    },
-    {
-      image: singleStep18,
-      title: "",
-      note: "Let’s Learn How to Use Pay Now",
-      position: { top: "50%", left: "50%", width: "30%" },
-      arrow: "",
-      points: [],
-    },
-    {
       image: singleStep1,
       title: "",
       note: "Login with Mobile number and Password mentioned during Product Registration",
@@ -1188,6 +1172,22 @@ export const flowData = {
       note: "Select the Date Range",
       position: { top: "58%", left: "55%", width: "28%" },
       arrow: "left",
+      points: [],
+    },
+    {
+      image: singleStep18,
+      title: "Three payment options are available:",
+      note: "<strong>Pay Now –</strong> Pay for an already created voucher.<br/><strong>Pay by Ledger –</strong> Select a ledger and make a payment without creating a voucher.<br/><strong>Ad-hoc Voucher –</strong> Make a one-time payment without creating a ledger.",
+      position: { top: "50%", left: "50%", width: "30%" },
+      arrow: "",
+      points: [],
+    },
+    {
+      image: singleStep18,
+      title: "",
+      note: "Let’s Learn How to Use <strong>‘Pay Now’</strong>",
+      position: { top: "50%", left: "50%", width: "30%" },
+      arrow: "",
       points: [],
     },
     {
@@ -1300,7 +1300,7 @@ export const flowData = {
     {
       image: singleStep18,
       title: "",
-      note: "Let’s Learn How to Use Pay by Ledger",
+      note: "Let’s Learn How to Use <strong>‘Pay by Ledger’</strong>",
       position: { top: "50%", left: "50%", width: "30%" },
       arrow: "",
       points: [],
@@ -1316,7 +1316,7 @@ export const flowData = {
     {
       image: singleStep19,
       title: "",
-      note: "Select Voucher Type as Contra",
+      note: "Select Voucher Type",
       position: { top: "39%", left: "50%", width: "30%" },
       arrow: "top",
       points: [],
@@ -1378,44 +1378,44 @@ export const flowData = {
       points: [],
     },
     {
-      image: singleStep27,
+      image: singleStep26,
       title: "",
       note: "",
-      position: { top: "63%", left: "72%", width: "28%" },
-      arrow: "top",
+      position: { top: "74.5%", left: "70%", width: "28%" },
+      arrow: "left",
       points: [
         "Note: OTP will be received on Registered Mobile No of Current Account against the UserID.",
         "If Maker-Checker workflow is present, then Checker has to approve the transaction on CIB",
       ],
     },
     {
-      image: singleStep28,
+      image: singleStep27,
       title: "",
       note: "OTP generated successfully",
-      position: { top: "88.5%", left: "52%", width: "25%" },
+      position: { top: "75%", left: "60%", width: "25%" },
       arrow: "right",
+      points: [],
+    },
+    {
+      image: singleStep28,
+      title: "",
+      note: "Enter the OTP",
+      position: { top: "74.5%", left: "68%", width: "25%" },
+      arrow: "left",
       points: [],
     },
     {
       image: singleStep29,
       title: "",
-      note: "Enter the OTP",
-      position: { top: "62%", left: "55%", width: "25%" },
-      arrow: "left",
-      points: [],
-    },
-    {
-      image: singleStep30,
-      title: "",
       note: "Accept the Yes Button",
-      position: { top: "47.2%", left: "76%", width: "25%" },
+      position: { top: "89%", left: "48%", width: "25%" },
       arrow: "right",
       points: [],
     },
     {
       image: singleStep18,
       title: "",
-      note: "Let’s Learn How to Use Ad-hoc Voucher",
+      note: "Let’s Learn How to Use <strong>‘Ad-hoc Voucher’</strong>",
       position: { top: "50%", left: "50%", width: "30%" },
       arrow: "",
       points: [],
@@ -1434,7 +1434,7 @@ export const flowData = {
       image: singleStep32,
       title: "",
       note: "Mention Payee Name",
-      position: { top: "54%", left: "65%", width: "25%" },
+      position: { top: "34%", left: "65%", width: "25%" },
       arrow: "left",
       points: [],
     },
@@ -1498,8 +1498,8 @@ export const flowData = {
       image: singleStep40,
       title: "",
       note: "",
-      position: { top: "65%", left: "70%", width: "25%" },
-      arrow: "top",
+      position: { top: "74.5%", left: "70%", width: "25%" },
+      arrow: "left",
       points: [
         "Note: OTP will be received on Registered Mobile No of Current Account against the UserID.",
         "If Maker-Checker workflow is present, then Checker has to approve the transaction on CIB",
@@ -1509,7 +1509,7 @@ export const flowData = {
       image: singleStep41,
       title: "",
       note: "OTP generated successfully",
-      position: { top: "88%", left: "52%", width: "25%" },
+      position: { top: "75%", left: "60%", width: "25%" },
       arrow: "right",
       points: [],
     },
@@ -1525,7 +1525,7 @@ export const flowData = {
       image: singleStep43,
       title: "",
       note: "Accept the Yes Button",
-      position: { top: "47%", left: "76%", width: "25%" },
+      position: { top: "89%", left: "48%", width: "25%" },
       arrow: "right",
       points: [],
     },
