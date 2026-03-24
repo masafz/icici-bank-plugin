@@ -111,7 +111,7 @@ export default function FlowGuide() {
                 {currentSlide.title}
               </h2>
               {currentSlide.points.length > 0 && (
-                <ul className="text-xs md:text-[14px] font-medium space-y-1 text-gray-800 list-decimal pl-4">
+                <ul className="text-xs md:text-[14px] font-medium space-y-1 text-black list-decimal pl-4">
                   {currentSlide.points.map((point, index) => (
                     <li key={index}>{point}</li>
                   ))}
