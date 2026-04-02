@@ -67,7 +67,6 @@ import corpStep3 from "../assets/flows/corpid-userid/Step_3.jpg";
 import corpStep4 from "../assets/flows/corpid-userid/Step_4.jpg";
 import corpStep5 from "../assets/flows/corpid-userid/Step_5.jpg";
 import corpStep6 from "../assets/flows/corpid-userid/Step_6.png";
-// import corpStep7 from "../assets/flows/corpid-userid/Step_7.png";
 import corpStep8 from "../assets/flows/corpid-userid/Step_8.png";
 import corpStep9 from "../assets/flows/corpid-userid/Step_9.png";
 import corpStep10 from "../assets/flows/corpid-userid/Step_10.png";
@@ -119,7 +118,6 @@ import singleStep26 from "../assets/flows/single-payment/Step_26.jpg";
 import singleStep27 from "../assets/flows/single-payment/Step_27.jpg";
 import singleStep28 from "../assets/flows/single-payment/Step_28.jpg";
 import singleStep29 from "../assets/flows/single-payment/Step_29.jpg";
-import singleStep30 from "../assets/flows/single-payment/Step_30.jpg";
 import singleStep31 from "../assets/flows/single-payment/Step_31.jpg";
 import singleStep32 from "../assets/flows/single-payment/Step_32.jpg";
 import singleStep33 from "../assets/flows/single-payment/Step_33.jpg";
@@ -185,7 +183,7 @@ export const demoCardDetails = [
       },
       {
         title: "Account Aggregator",
-        desc: "Secure fetch bank data from multiple accounts in one place",
+        desc: "Secure fetch bank data from other bank accounts in one place",
         route: "account-aggregator",
       },
     ],
@@ -936,14 +934,6 @@ export const flowData = {
       arrow: "top",
       points: [],
     },
-    // {
-    //   image: corpStep7,
-    //   title: "",
-    //   note: "Select Connected Banking",
-    //   position: { top: "80%", left: "29.5%", width: "25%" },
-    //   arrow: "left",
-    //   points: [],
-    // },
     {
       image: corpStep8,
       title: "",
@@ -992,14 +982,6 @@ export const flowData = {
       arrow: "right",
       points: ["The status changes to registered", "Go to your Tally"],
     },
-    // {
-    //   image: corpStep14,
-    //   title: "",
-    //   note: "",
-    //   position: { top: "55.5%", left: "73%", width: "28%" },
-    //   arrow: "left",
-    //   points: ["Go to Tally Accounting Software"],
-    // },
     {
       image: corpStep14,
       title: "",
@@ -1071,14 +1053,6 @@ export const flowData = {
         "Enter the OTP",
       ],
     },
-    // {
-    //   image: accAggStep5,
-    //   title: "",
-    //   note: "Enter the OTP",
-    //   position: { top: "70.3%", left: "50%", width: "30%" },
-    //   arrow: "top",
-    //   points: [],
-    // },
     {
       image: accAggStep8,
       title: "",
@@ -1434,7 +1408,7 @@ export const flowData = {
       image: singleStep32,
       title: "",
       note: "Mention Payee Name",
-      position: { top: "34%", left: "65%", width: "25%" },
+      position: { top: "34%", left: "66%", width: "25%" },
       arrow: "left",
       points: [],
     },
@@ -1579,14 +1553,6 @@ export const flowData = {
       arrow: "top",
       points: [],
     },
-    // {
-    //   image: corpStep7,
-    //   title: "",
-    //   note: "Select Connected Banking",
-    //   position: { top: "80%", left: "29.5%", width: "25%" },
-    //   arrow: "left",
-    //   points: [],
-    // },
     {
       image: corpStep8,
       title: "",
@@ -1635,14 +1601,6 @@ export const flowData = {
       arrow: "right",
       points: ["The status changes to registered", "Go to your Tally"],
     },
-    // {
-    //   image: corpStep14,
-    //   title: "",
-    //   note: "",
-    //   position: { top: "55.5%", left: "73%", width: "28%" },
-    //   arrow: "left",
-    //   points: ["Go to Tally Accounting Software"],
-    // },
     {
       image: corpStep14,
       title: "",

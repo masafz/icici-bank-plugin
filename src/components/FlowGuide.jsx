@@ -16,8 +16,8 @@ export default function FlowGuide() {
   const currentSlide = slides?.[step];
 
   const nextStep = () => {
-    if (step < slides.length - 1) setStep(step + 1); 
-    else navigate(-1); 
+    if (step < slides.length - 1) setStep(step + 1);
+    else navigate(-1);
   };
 
   const prevStep = () => {
@@ -29,7 +29,7 @@ export default function FlowGuide() {
     if (!nextImage) return;
     const img = new Image();
     img.src = nextImage;
-  }, [step, slides]); 
+  }, [step, slides]);
 
   const handleImageLoad = () => {
     const img = imgRef.current;
@@ -43,13 +43,13 @@ export default function FlowGuide() {
     } else {
       setFitMode("height");
     }
-  }; 
- 
+  };
+
   useEffect(() => {
     window.addEventListener("resize", handleImageLoad);
     return () => window.removeEventListener("resize", handleImageLoad);
   }, []);
- 
+
   useEffect(() => {
     const handleKey = (e) => {
       if (e.key === "ArrowRight" || e.key === "Enter") {
