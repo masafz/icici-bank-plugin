@@ -36,7 +36,7 @@ export default function Features() {
     );
 
   return (
-    <section className="bg-[#FEFCFA]">
+    <section className="bg-[#FEFCFA] min-h-[calc(100dvh-65px)]">
       <div className="w-full px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-40 py-12 md:py-16">
         <button
           className="text-[#DB620A] hover:underline text-[16px] font-medium flex items-center gap-2 mb-6 cursor-pointer transition-all duration-200"
