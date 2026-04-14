@@ -132,6 +132,31 @@ import singleStep41 from "../assets/flows/single-payment/Step_41.jpg";
 import singleStep42 from "../assets/flows/single-payment/Step_42.jpg";
 import singleStep43 from "../assets/flows/single-payment/Step_43.jpg";
 
+// bulk payment
+import bulkStep1 from "../assets/flows/bulk-payment/Step_1.jpg";
+import bulkStep2 from "../assets/flows/bulk-payment/Step_2.jpg";
+import bulkStep3 from "../assets/flows/bulk-payment/Step_3.jpg";
+import bulkStep4 from "../assets/flows/bulk-payment/Step_4.jpg";
+import bulkStep5 from "../assets/flows/bulk-payment/Step_5.jpg";
+import bulkStep6 from "../assets/flows/bulk-payment/Step_6.jpg";
+import bulkStep7 from "../assets/flows/bulk-payment/Step_7.jpg";
+import bulkStep8 from "../assets/flows/bulk-payment/Step_8.jpg";
+import bulkStep9 from "../assets/flows/bulk-payment/Step_9.jpg";
+import bulkStep10 from "../assets/flows/bulk-payment/Step_10.jpg";
+import bulkStep11 from "../assets/flows/bulk-payment/Step_11.jpg";
+import bulkStep12 from "../assets/flows/bulk-payment/Step_12.jpg";
+import bulkStep13 from "../assets/flows/bulk-payment/Step_13.jpg";
+import bulkStep14 from "../assets/flows/bulk-payment/Step_14.jpg";
+import bulkStep15 from "../assets/flows/bulk-payment/Step_15.jpg";
+import bulkStep16 from "../assets/flows/bulk-payment/Step_16.jpg";
+import bulkStep17 from "../assets/flows/bulk-payment/Step_17.jpg";
+
+// check balance
+import checkStep1 from "../assets/flows/check-balance/Step_1.jpg";
+import checkStep2 from "../assets/flows/check-balance/Step_2.jpg";
+import checkStep3 from "../assets/flows/check-balance/Step_3.jpg";
+import checkStep4 from "../assets/flows/check-balance/Step_4.jpg";
+
 export const demoCardDetails = [
   {
     title: "Payments",
@@ -233,7 +258,7 @@ export const featureData = {
       "Real time status updates eliminating manual tracking",
     ],
     note: "In this demo, let’s see how the Bulk Payment Features work",
-    route: "",
+    route: "bulk-payment-flow",
   },
   "single-payment": {
     title: "Single Payment",
@@ -266,7 +291,7 @@ export const featureData = {
       "Quickly spot unmatched or missing transactions",
     ],
     note: "In this demo, let’s see how the Bank Reconciliation Features work",
-    route: "",
+    route: "bank-reconciliation-flow",
   },
   "user-access": {
     title: "User Access",
@@ -277,7 +302,7 @@ export const featureData = {
       "Ensure secure and control access",
     ],
     note: "In this demo, let’s see how the User Access Features work",
-    route: "",
+    route: "user-access-flow",
   },
   "check-balance": {
     title: "Check Balance",
@@ -288,7 +313,7 @@ export const featureData = {
       "Daily reconciliation and cash flow monitoring",
     ],
     note: "In this demo, let’s see how the Check Balance Features work",
-    route: "",
+    route: "check-balance-flow",
   },
   "manage-corpid": {
     title: "Manage Corp ID",
@@ -369,7 +394,7 @@ export const featureData = {
       "Authorize payment initiation securely from Bank Plugin using your ERP",
     ],
     note: "In this demo, let’s see how to generate token in Bank Plugin",
-    route: "token-generation",
+    route: "token-generation-flow",
   },
 };
 
@@ -1626,4 +1651,184 @@ export const flowData = {
       points: [],
     },
   ],
+  "bulk-payment-flow": [
+    {
+      image: bulkStep1,
+      title: "",
+      note: "Login with Mobile number and Password mentioned during Product Registration",
+      position: { top: "62%", left: "71.5%", width: "30%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: bulkStep2,
+      title: "",
+      note: "Click on F6: Initiate Payment",
+      position: { top: "73%", left: "45%", width: "30%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: bulkStep3,
+      title: "",
+      note: "Select the Bank Ledger",
+      position: { top: "18%", left: "50%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bulkStep4,
+      title: "",
+      note: "Select the Date Range",
+      position: { top: "58%", left: "55%", width: "30%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: bulkStep5,
+      title: "",
+      note: "Select ‘Not Initiated’ or ‘Failed’ vouchers from the screen",
+      position: { top: "33%", left: "55%", width: "34%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bulkStep6,
+      title: "",
+      note: "Select the Date Range",
+      position: { top: "52%", left: "75%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bulkStep7,
+      title: "",
+      note: "You’ll have the option to Review/Add/Edit the Email ID and WhatsApp alert number.<br/>Please note: These fields are optional and will auto-fill if already saved in the ledger.",
+      position: { top: "75%", left: "50%", width: "32%" },
+      arrow: "",
+      points: [],
+    },
+    {
+      image: bulkStep8,
+      title: "",
+      note: "Enter a brief remark or reference for the file to help identify it easily during processing",
+      position: { top: "66%", left: "50%", width: "32%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: bulkStep8,
+      title: "",
+      note: "Click on ‘Create OTP’ to begin the payment process.",
+      position: { top: "11%", left: "73%", width: "32%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bulkStep9,
+      title: "",
+      note: "OTP generated successfully",
+      position: { top: "82%", left: "58%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bulkStep10,
+      title: "",
+      note: "Enter the OTP",
+      position: { top: "70%", left: "50%", width: "28%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: bulkStep11,
+      title: "",
+      note: "Click on Yes",
+      position: { top: "77%", left: "46%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bulkStep12,
+      title: "",
+      note: "Transaction processed successfully",
+      position: { top: "83%", left: "62%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bulkStep13,
+      title: "",
+      note: "All transactions will be marked as Pending initially.",
+      position: { top: "62%", left: "63%", width: "34%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bulkStep14,
+      title: "",
+      note: "To check the latest status, simply press F11 – Refresh Status.",
+      position: { top: "67.5%", left: "72%", width: "34%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bulkStep15,
+      title: "",
+      note: "To filter out the payment status, Click on F5: Filter by Status",
+      position: { top: "28.5%", left: "71%", width: "36%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bulkStep16,
+      title: "",
+      note: "Select the Payment Status as Success",
+      position: { top: "68.5%", left: "38%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bulkStep17,
+      title: "",
+      note: "All successful transactions are displayed.",
+      position: { top: "37%", left: "57%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+  ],
+  "check-balance-flow": [
+    {
+      image: checkStep1,
+      title: "",
+      note: "Click on “F4: Check Balance” for Balance Fetch",
+      position: { top: "52.5%", left: "74%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: checkStep2,
+      title: "",
+      note: "Select the Bank Ledger",
+      position: { top: "41%", left: "12%", width: "28%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: checkStep3,
+      title: "",
+      note: "Click F5 “Refresh ICICI Bank CIB Balance” for Fetching Updated Balance",
+      position: { top: "49%", left: "74%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: checkStep4,
+      title: "",
+      note: "The updated Balance will be updated",
+      position: { top: "41%", left: "55%", width: "30%" },
+      arrow: "top",
+      points: [],
+    },
+  ]
 };
