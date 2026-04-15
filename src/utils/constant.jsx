@@ -1743,7 +1743,7 @@ export const flowData = {
     {
       image: bulkStep6,
       title: "",
-      note: "Select the Date Range",
+      note: "Click on F7 - Bulk Pay Now",
       position: { top: "52%", left: "75%", width: "28%" },
       arrow: "right",
       points: [],
