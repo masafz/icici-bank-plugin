@@ -157,6 +157,54 @@ import checkStep2 from "../assets/flows/check-balance/Step_2.jpg";
 import checkStep3 from "../assets/flows/check-balance/Step_3.jpg";
 import checkStep4 from "../assets/flows/check-balance/Step_4.jpg";
 
+// user access
+import userStep1 from "../assets/flows/user-access/Step_1.jpg";
+import userStep2 from "../assets/flows/user-access/Step_2.jpg";
+import userStep3 from "../assets/flows/user-access/Step_3.jpg";
+import userStep4 from "../assets/flows/user-access/Step_4.jpg";
+import userStep5 from "../assets/flows/user-access/Step_5.jpg";
+import userStep6 from "../assets/flows/user-access/Step_6.jpg";
+
+// bank reconciliation
+import bankStep1 from "../assets/flows/bank-reconciliation/Step_1.jpg";
+import bankStep2 from "../assets/flows/bank-reconciliation/Step_2.jpg";
+import bankStep3 from "../assets/flows/bank-reconciliation/Step_3.jpg";
+import bankStep4 from "../assets/flows/bank-reconciliation/Step_4.jpg";
+import bankStep5 from "../assets/flows/bank-reconciliation/Step_5.jpg";
+import bankStep6 from "../assets/flows/bank-reconciliation/Step_6.jpg";
+import bankStep7 from "../assets/flows/bank-reconciliation/Step_7.jpg";
+import bankStep8 from "../assets/flows/bank-reconciliation/Step_8.jpg";
+import bankStep9 from "../assets/flows/bank-reconciliation/Step_9.jpg";
+import bankStep10 from "../assets/flows/bank-reconciliation/Step_10.jpg";
+import bankStep11 from "../assets/flows/bank-reconciliation/Step_11.jpg";
+import bankStep12 from "../assets/flows/bank-reconciliation/Step_12.jpg";
+import bankStep13 from "../assets/flows/bank-reconciliation/Step_13.jpg";
+import bankStep14 from "../assets/flows/bank-reconciliation/Step_14.jpg";
+import bankStep15 from "../assets/flows/bank-reconciliation/Step_15.jpg";
+import bankStep16 from "../assets/flows/bank-reconciliation/Step_16.jpg";
+import bankStep17 from "../assets/flows/bank-reconciliation/Step_17.jpg";
+import bankStep18 from "../assets/flows/bank-reconciliation/Step_18.jpg";
+import bankStep19 from "../assets/flows/bank-reconciliation/Step_19.jpg";
+import bankStep20 from "../assets/flows/bank-reconciliation/Step_20.jpg";
+import bankStep21 from "../assets/flows/bank-reconciliation/Step_21.jpg";
+import bankStep22 from "../assets/flows/bank-reconciliation/Step_22.jpg";
+import bankStep23 from "../assets/flows/bank-reconciliation/Step_23.jpg";
+import bankStep24 from "../assets/flows/bank-reconciliation/Step_24.jpg";
+import bankStep25 from "../assets/flows/bank-reconciliation/Step_25.jpg";
+import bankStep26 from "../assets/flows/bank-reconciliation/Step_26.jpg";
+import bankStep27 from "../assets/flows/bank-reconciliation/Step_27.jpg";
+import bankStep28 from "../assets/flows/bank-reconciliation/Step_28.jpg";
+import bankStep29 from "../assets/flows/bank-reconciliation/Step_29.jpg";
+import bankStep30 from "../assets/flows/bank-reconciliation/Step_30.jpg";
+import bankStep31 from "../assets/flows/bank-reconciliation/Step_31.jpg";
+import bankStep32 from "../assets/flows/bank-reconciliation/Step_32.jpg";
+import bankStep33 from "../assets/flows/bank-reconciliation/Step_33.jpg";
+import bankStep34 from "../assets/flows/bank-reconciliation/Step_34.jpg";
+import bankStep35 from "../assets/flows/bank-reconciliation/Step_35.jpg";
+import bankStep36 from "../assets/flows/bank-reconciliation/Step_36.jpg";
+import bankStep37 from "../assets/flows/bank-reconciliation/Step_37.jpg";
+import bankStep38 from "../assets/flows/bank-reconciliation/Step_38.jpg";
+
 export const demoCardDetails = [
   {
     title: "Payments",
@@ -1828,6 +1876,370 @@ export const flowData = {
       note: "The updated Balance will be updated",
       position: { top: "41%", left: "55%", width: "30%" },
       arrow: "top",
+      points: [],
+    },
+  ],
+  "user-access-flow": [
+    {
+      image: userStep1,
+      title: "",
+      note: "Go to Gateway of Tally and click on Alt + K (Company)",
+      position: { top: "18%", left: "12%", width: "30%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: userStep2,
+      title: "",
+      note: "Select the Users and Passwords",
+      position: { top: "32.5%", left: "42%", width: "30%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: userStep3,
+      title: "",
+      note: "Choose the owner",
+      position: { top: "50%", left: "17%", width: "28%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: userStep4,
+      title: "",
+      note: "Under Allow Bank Plugin chose Yes/No",
+      position: { top: "52.5%", left: "80%", width: "30%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: userStep5,
+      title: "",
+      note: "Enable/disable the module access to selected user",
+      position: { top: "59%", left: "64%", width: "32%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: userStep6,
+      title: "",
+      note: "Save it",
+      position: { top: "59%", left: "62%", width: "28%" },
+      arrow: "",
+      points: [],
+    },
+  ],
+  "bank-reconciliation-flow": [
+    {
+      image: bankStep1,
+      title: "",
+      note: "Click on F5: Bank Recon",
+      position: { top: "56%", left: "75%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep2,
+      title: "",
+      note: "Select the Bank Ledger",
+      position: { top: "72%", left: "45%", width: "28%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: bankStep3,
+      title: "",
+      note: "Select the Date Range",
+      position: { top: "55%", left: "55%", width: "28%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: bankStep4,
+      title: "",
+      note: "Click on F2 Configuration",
+      position: { top: "12%", left: "75%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep5,
+      title: "",
+      note: "Fill out the Configurations and save it",
+      position: { top: "55%", left: "45%", width: "28%" },
+      arrow: "",
+      points: [],
+    },
+    {
+      image: bankStep6,
+      title: "",
+      note: "Select Match not found entries from Bank statement",
+      position: { top: "42%", left: "53%", width: "32%" },
+      arrow: "bottom",
+      points: [],
+    },
+    {
+      image: bankStep7,
+      title: "",
+      note: "Press F10 Create/Match voucher to reconcile with already created voucher",
+      position: { top: "63%", left: "73%", width: "32%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep8,
+      title: "",
+      note: "Select Ledger  from “List of Ledgers”",
+      position: { top: "16%", left: "51%", width: "32%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep9,
+      title: "",
+      note: "If the voucher is not created, create a new voucher by selecting Not Applicable",
+      position: { top: "70%", left: "12.5%", width: "31%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep10,
+      title: "",
+      note: "Select the voucher type",
+      position: { top: "63%", left: "80.8%", width: "28%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: bankStep11,
+      title: "",
+      note: "Click on accept it.",
+      position: { top: "71%", left: "45%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep12,
+      title: "",
+      note: "Press Yes to save Voucher",
+      position: { top: "89%", left: "67%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep13,
+      title: "",
+      note: "Bank Statement will automatically display as “Reconciled with Tally”",
+      position: { top: "53%", left: "34%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep13,
+      title: "",
+      note: "Multiple Reconciliation process for payments done outside Bank Plugin",
+      position: { top: "54%", left: "44%", width: "30%" },
+      arrow: "",
+      points: [],
+    },
+    {
+      image: bankStep14,
+      title: "",
+      note: "Select multiple transaction entries using the spacebar",
+      position: { top: "55%", left: "50%", width: "32%" },
+      arrow: "",
+      points: [],
+    },
+    {
+      image: bankStep15,
+      title: "",
+      note: "Enter the Ledger name",
+      position: { top: "55%", left: "38%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep16,
+      title: "",
+      note: "Select the ledger from the ledger list",
+      position: { top: "16%", left: "53%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep17,
+      title: "",
+      note: "Select the Voucher number as per the requirement",
+      position: { top: "71%", left: "30%", width: "32%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep18,
+      title: "",
+      note: "Do the bill wise adjustment as per requirements",
+      position: { top: "59%", left: "22%", width: "32%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep19,
+      title: "",
+      note: "Fill the Amount and select the Dr/Cr",
+      position: { top: "54.5%", left: "84%", width: "30%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: bankStep20,
+      title: "",
+      note: "Fill the Amount and select the Dr/Cr",
+      position: { top: "67%", left: "36%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep21,
+      title: "",
+      note: "Select the Ledger from the ledger list",
+      position: { top: "46%", left: "52.5%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep22,
+      title: "",
+      note: "Select the option as yes. The voucher will be reconciled.",
+      position: { top: "77%", left: "57%", width: "34%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep23,
+      title: "",
+      note: "Download Report",
+      position: { top: "55%", left: "50%", width: "28%" },
+      arrow: "",
+      points: [],
+    },
+    {
+      image: bankStep24,
+      title: "",
+      note: "Click on ‘Ctrl D’",
+      position: { top: "92%", left: "75%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep25,
+      title: "",
+      note: "Select the Folder Path where you wish to save the statement",
+      position: { top: "62%", left: "85%", width: "30%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: bankStep26,
+      title: "",
+      note: "Choose the File format",
+      position: { top: "55.5%", left: "87%", width: "28%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: bankStep27,
+      title: "",
+      note: "The file starts downloading",
+      position: { top: "25%", left: "45%", width: "28%" },
+      arrow: "",
+      points: [],
+    },
+    {
+      image: bankStep28,
+      title: "",
+      note: "The file can be viewed in the excel sheet",
+      position: { top: "35%", left: "55%", width: "28%" },
+      arrow: "",
+      points: [],
+    },
+    {
+      image: bankStep29,
+      title: "",
+      note: "Reconcile multiple ledgers with one payment with Multiple ledgers",
+      position: { top: "28%", left: "45%", width: "30%" },
+      arrow: "",
+      points: [],
+    },
+    {
+      image: bankStep30,
+      title: "",
+      note: "Select the voucher",
+      position: { top: "45%", left: "45%", width: "30%" },
+      arrow: "",
+      points: [],
+    },
+    {
+      image: bankStep31,
+      title: "",
+      note: "Select the ledger",
+      position: { top: "45%", left: "52%", width: "30%" },
+      arrow: "",
+      points: [],
+    },
+    {
+      image: bankStep32,
+      title: "",
+      note: "Select the multiple ledger as yes",
+      position: { top: "56%", left: "63%", width: "30%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: bankStep33,
+      title: "",
+      note: "Select the ledger",
+      position: { top: "20%", left: "52%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep34,
+      title: "",
+      note: "Selected ledger will be added",
+      position: { top: "50%", left: "78.5%", width: "30%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: bankStep35,
+      title: "",
+      note: "Select the Date Range",
+      position: { top: "67.5%", left: "81%", width: "28%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: bankStep36,
+      title: "",
+      note: "Accept the option as Yes",
+      position: { top: "71%", left: "45%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bankStep37,
+      title: "",
+      note: "Press Accept to save Voucher",
+      position: { top: "85%", left: "30%", width: "28%" },
+      arrow: "bottom",
+      points: [],
+    },
+    {
+      image: bankStep38,
+      title: "",
+      note: "The status gets changed to Reconciled with Tally",
+      position: { top: "42%", left: "53%", width: "30%" },
+      arrow: "bottom",
       points: [],
     },
   ]
