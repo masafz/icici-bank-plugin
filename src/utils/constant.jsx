@@ -205,6 +205,43 @@ import bankStep36 from "../assets/flows/bank-reconciliation/Step_36.jpg";
 import bankStep37 from "../assets/flows/bank-reconciliation/Step_37.jpg";
 import bankStep38 from "../assets/flows/bank-reconciliation/Step_38.jpg";
 
+// bharat connect
+import bharatStep1 from "../assets/flows/bharat-connect/Step_1.png";
+import bharatStep2 from "../assets/flows/bharat-connect/Step_2.png";
+import bharatStep3 from "../assets/flows/bharat-connect/Step_3.png";
+import bharatStep4 from "../assets/flows/bharat-connect/Step_4.png";
+import bharatStep5 from "../assets/flows/bharat-connect/Step_5.png";
+import bharatStep6 from "../assets/flows/bharat-connect/Step_6.png";
+import bharatStep7 from "../assets/flows/bharat-connect/Step_7.png";
+import bharatStep8 from "../assets/flows/bharat-connect/Step_8.png";
+import bharatStep9 from "../assets/flows/bharat-connect/Step_9.png";
+import bharatStep10 from "../assets/flows/bharat-connect/Step_10.png";
+import bharatStep11 from "../assets/flows/bharat-connect/Step_11.png";
+import bharatStep12 from "../assets/flows/bharat-connect/Step_12.png";
+import bharatStep13 from "../assets/flows/bharat-connect/Step_13.png";
+import bharatStep14 from "../assets/flows/bharat-connect/Step_14.png";
+import bharatStep15 from "../assets/flows/bharat-connect/Step_15.png";
+import bharatStep16 from "../assets/flows/bharat-connect/Step_16.png";
+import bharatStep17 from "../assets/flows/bharat-connect/Step_17.png";
+import bharatStep18 from "../assets/flows/bharat-connect/Step_18.png";
+import bharatStep19 from "../assets/flows/bharat-connect/Step_19.png";
+import bharatStep20 from "../assets/flows/bharat-connect/Step_20.png";
+import bharatStep21 from "../assets/flows/bharat-connect/Step_21.png";
+import bharatStep22 from "../assets/flows/bharat-connect/Step_22.png";
+import bharatStep23 from "../assets/flows/bharat-connect/Step_23.png";
+import bharatStep24 from "../assets/flows/bharat-connect/Step_24.png";
+import bharatStep25 from "../assets/flows/bharat-connect/Step_25.png";
+import bharatStep26 from "../assets/flows/bharat-connect/Step_26.png";
+import bharatStep27 from "../assets/flows/bharat-connect/Step_27.png";
+import bharatStep28 from "../assets/flows/bharat-connect/Step_28.png";
+import bharatStep29 from "../assets/flows/bharat-connect/Step_29.png";
+import bharatStep30 from "../assets/flows/bharat-connect/Step_30.png";
+import bharatStep31 from "../assets/flows/bharat-connect/Step_31.png";
+import bharatStep32 from "../assets/flows/bharat-connect/Step_32.png";
+import bharatStep33 from "../assets/flows/bharat-connect/Step_33.png";
+import bharatStep34 from "../assets/flows/bharat-connect/Step_34.png";
+import bharatStep35 from "../assets/flows/bharat-connect/Step_35.png";
+
 export const demoCardDetails = [
   {
     title: "Payments",
@@ -328,7 +365,7 @@ export const featureData = {
       "Pay to the invoices using the accounting software",
     ],
     note: "In this demo, let’s see how the Bharat Connect Features work",
-    route: "",
+    route: "bharat-connect-flow",
   },
   "bank-reconciliation": {
     title: "Bank Reconciliation",
@@ -1743,7 +1780,7 @@ export const flowData = {
     {
       image: bulkStep6,
       title: "",
-      note: "Click on F7 - Bulk Pay Now",
+      note: "Select the Date Range",
       position: { top: "52%", left: "75%", width: "28%" },
       arrow: "right",
       points: [],
@@ -2242,5 +2279,287 @@ export const flowData = {
       arrow: "bottom",
       points: [],
     },
-  ]
+  ],
+  "bharat-connect-flow": [
+    {
+      image: bharatStep1,
+      title: "",
+      note: "Click on F7 to access Bharat Connect",
+      position: { top: "54%", left: "74%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bharatStep2,
+      title: "",
+      note: "Enter the details for creating B2B ID such as GSTIN and PAN",
+      position: { top: "40.5%", left: "78.5%", width: "30%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: bharatStep3,
+      title: "",
+      note: "B2B ID is created",
+      position: { top: "34%", left: "84%", width: "28%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: bharatStep4,
+      title: "",
+      note: "Click on Alt + F2: Map B2B ID to Ledger",
+      position: { top: "30%", left: "75%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bharatStep5,
+      title: "",
+      note: "Select Buyer Ledger to Map B2B ID",
+      position: { top: "43.5%", left: "11%", width: "28%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: bharatStep6,
+      title: "",
+      note: "Press Alt+F3:- Search B2B ID",
+      position: { top: "37%", left: "74.5%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bharatStep7,
+      title: "",
+      note: "B2B ID Fetched Succesfully",
+      position: { top: "46%", left: "71%", width: "28%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: bharatStep8,
+      title: "",
+      note: "Press F2: - Create/Send Invoice",
+      position: { top: "22%", left: "75%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bharatStep9,
+      title: "",
+      note: "Supplier selects the ledger and  Invoices",
+      position: { top: "66%", left: "71%", width: "28%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: bharatStep10,
+      title: "",
+      note: "Confirm “Yes” if the supplier wants to send invoice to customer",
+      position: { top: "61%", left: "27.5%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bharatStep11,
+      title: "",
+      note: "The invoice is sent to the Buyer.<br/>Please note: Initially the status shows as “Created,”. Post refreshing, it updates to “Sent to Buyer.”",
+      position: { top: "48%", left: "62%", width: "34%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: bharatStep12,
+      title: "",
+      note: "The status changed to “Sent to Buyer.”",
+      position: { top: "45%", left: "62%", width: "32%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: bharatStep13,
+      title: "",
+      note: "Note: On the Buyer Dashboard, the invoices shared by the supplier will appear with the status “Sent to Buyer” and the response as “Invoice Received.”",
+      position: { top: "47%", left: "62%", width: "32%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: bharatStep14,
+      title: "",
+      note: "",
+      position: { top: "21%", left: "73%", width: "32%" },
+      arrow: "right",
+      points: ["Buyer selects the invoice(s)", "Press Ctrl + F4 to view the invoice details."],
+    },
+    {
+      image: bharatStep15,
+      title: "",
+      note: "Buyer has option to ether Accept or Reject the Invoice",
+      position: { top: "25.5%", left: "73%", width: "32%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bharatStep16,
+      title: "",
+      note: "",
+      position: { top: "61.5%", left: "25.5%", width: "32%" },
+      arrow: "right",
+      points: ["If Buyer Accept Invoice, option appears to select Auto post Purchase voucher", "Click “Yes” to post"],
+    },
+    {
+      image: bharatStep17,
+      title: "",
+      note: "Then the Buyer needs to complete the Item Mapping in the Item Mapping window.",
+      position: { top: "33%", left: "86%", width: "30%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: bharatStep18,
+      title: "",
+      note: " After completing the Item Mapping, the invoice status changes to “Accepted.”",
+      position: { top: "46%", left: "62%", width: "30%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: bharatStep19,
+      title: "",
+      note: "",
+      position: { top: "46%", left: "73%", width: "32%" },
+      arrow: "right",
+      points: ["If the Buyer wants to send the invoice for review:", "Click on “Send for Review”"],
+    },
+    {
+      image: bharatStep20,
+      title: "",
+      note: " Enter the required remarks",
+      position: { top: "64%", left: "73%", width: "28%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: bharatStep21,
+      title: "",
+      note: " Note: The same status will also be reflected on the Supplier Dashboard.",
+      position: { top: "38%", left: "42%", width: "30%" },
+      arrow: "right",
+      points: ["The invoice will be marked as “Under Review”"],
+    },
+    {
+      image: bharatStep22,
+      title: "",
+      note: "If the Buyer wants to reject the invoice.<br/>1. Click on “Reject”",
+      position: { top: "43%", left: "75%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bharatStep23,
+      title: "",
+      note: "Enter the required remarks",
+      position: { top: "63%", left: "73%", width: "28%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: bharatStep24,
+      title: "",
+      note: "The invoice will be marked as “Rejected”<br/>Note: The same status will also be reflected on the Supplier Dashboard.",
+      position: { top: "41.5%", left: "43.5%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bharatStep25,
+      title: "",
+      note: "To make payment for accepted invoices,<br/>1.      Buyer selects the invoice<br/>2.      Clicks on the “Pay Now” button.",
+      position: { top: "52%", left: "74%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bharatStep26,
+      title: "",
+      note: "",
+      position: { top: "78%", left: "74%", width: "30%" },
+      arrow: "left",
+      points: ["Buyer fills in the required details to proceed with the payment.", "Buyer Clicks F4 to Generate OTP"],
+    },
+    {
+      image: bharatStep27,
+      title: "",
+      note: "Buyer enters the OTP, and the transaction is successfully completed.",
+      position: { top: "81%", left: "56%", width: "34%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bharatStep28,
+      title: "",
+      note: "The status of the invoice changes to “Payment Initiated.”",
+      position: { top: "34%", left: "40%", width: "34%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bharatStep29,
+      title: "",
+      note: "The Supplier can confirm or view the payment by clicking on “Confirm/View Payment.”",
+      position: { top: "58%", left: "72%", width: "34%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bharatStep30,
+      title: "",
+      note: "Supplier can accept the payment by pressing F5 till then Status appears as Confirmation Pending",
+      position: { top: "18%", left: "72%", width: "34%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bharatStep31,
+      title: "",
+      note: "Payment successfully accepted.",
+      position: { top: "81%", left: "60%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bharatStep32,
+      title: "",
+      note: "The status is updated to “Confirmed.”",
+      position: { top: "29%", left: "65%", width: "30%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: bharatStep33,
+      title: "",
+      note: "The status on both the Supplier and Buyer dashboards gets updated to “Fully Paid.”",
+      position: { top: "34%", left: "43%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: bharatStep34,
+      title: "",
+      note: "Buyer Bank Statement:-<br/>After the payment is completed, it gets automatically reconciled with the bank statement.",
+      position: { top: "63%", left: "53.5%", width: "32%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: bharatStep35,
+      title: "",
+      note: "Supplier Bank Statement:-<br/>After the payment is completed, it gets automatically reconciled with the bank statement.",
+      position: { top: "55%", left: "50%", width: "32%" },
+      arrow: "",
+      points: [],
+    },
+  ],
 };
