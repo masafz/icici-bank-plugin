@@ -25,6 +25,12 @@ export default function FlowGuide() {
   };
 
   useEffect(() => {
+    if(window.innerWidth < 1024){
+      alert('Open in desktop mode for better experience')
+    }
+  }, []);
+
+  useEffect(() => {
     const nextImage = slides[step + 1]?.image;
     if (!nextImage) return;
     const img = new Image();
