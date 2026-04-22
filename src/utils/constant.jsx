@@ -2396,7 +2396,7 @@ export const flowData = {
     {
       image: bharatStep15,
       title: "",
-      note: "Buyer has option to ether Accept or Reject the Invoice",
+      note: "Buyer has option to either Accept or Reject the Invoice",
       position: { top: "25.5%", left: "73%", width: "32%" },
       arrow: "right",
       points: [],
