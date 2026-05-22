@@ -37,13 +37,13 @@ export default function Features() {
 
   return (
     <section className="bg-[#FEFCFA] min-h-[calc(100vh-65px)]">
-      <div className="w-full px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-40 py-12 md:py-16">
+      <div className="w-full max-w-[1920px] mx-auto px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-40 py-12 md:py-16">
         <button
           className="text-[#DB620A] hover:underline text-[16px] font-medium flex items-center gap-2 mb-6 cursor-pointer transition-all duration-200"
           onClick={() => navigate("/")}
         >
           <img src={orangeArrow} alt="arrow" width={11} />
-          Back to Home
+          Back to Demo Menu
         </button>
         <div className="mb-10 md:mb-14">
           <h1 className="text-[28px] md:text-[37px] font-black text-black leading-[1.1] mb-[10px]">
@@ -53,11 +53,11 @@ export default function Features() {
             {feature.desc}
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-[repeat(auto-fit,minmax(320px,360px))] justify-center gap-6 md:gap-8 mb-12 md:mb-16">
+        <div className="flex flex-wrap justify-center gap-6 md:gap-8 mb-12 md:mb-16">
           {feature.cards.map((text, index) => (
             <div
               key={index}
-              className="rounded-[11px] border-l-[5px] border-[#DB620A] bg-[#FEFBF9] p-8 shadow-[0px_0px_4px_0px_#00000040]"
+              className="w-full md:w-[360px] rounded-[11px] border-l-[5px] border-[#DB620A] bg-[#FEFBF9] p-8 shadow-[0px_0px_4px_0px_#00000040]"
             >
               <p className="relative z-10 text-[17px] font-semibold leading-[1.1] text-black pl-2">
                 {text}

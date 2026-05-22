@@ -41,7 +41,6 @@ import accLinkStep8 from "../assets/flows/account-linking/Step_8.jpg";
 import accLinkStep9 from "../assets/flows/account-linking/Step_9.jpg";
 import accLinkStep10 from "../assets/flows/account-linking/Step_10.jpg";
 import accLinkStep11 from "../assets/flows/account-linking/Step_11.jpg";
-import accLinkStep12 from "../assets/flows/account-linking/Step_12.jpg";
 
 // token generation
 import tokenGenStep1 from "../assets/flows/token-generation/Step_1.jpg";
@@ -80,13 +79,13 @@ import corpStep15 from "../assets/flows/corpid-userid/Step_15.jpg";
 import accAggStep1 from "../assets/flows/account-aggregator/Step_1.jpg";
 import accAggStep2 from "../assets/flows/account-aggregator/Step_2.jpg";
 import accAggStep3 from "../assets/flows/account-aggregator/Step_3.jpg";
+import accAggStep4 from "../assets/flows/account-aggregator/Step_4.jpg";
 import accAggStep5 from "../assets/flows/account-aggregator/Step_5.jpg";
 import accAggStep6 from "../assets/flows/account-aggregator/Step_6.jpg";
 import accAggStep7 from "../assets/flows/account-aggregator/Step_7.jpg";
 import accAggStep8 from "../assets/flows/account-aggregator/Step_8.jpg";
 import accAggStep9 from "../assets/flows/account-aggregator/Step_9.jpg";
 import accAggStep10 from "../assets/flows/account-aggregator/Step_10.jpg";
-import accAggStep11 from "../assets/flows/account-aggregator/Step_11.jpg";
 
 // single payment
 import singleStep1 from "../assets/flows/single-payment/Step_1.jpg";
@@ -154,8 +153,6 @@ import bulkStep17 from "../assets/flows/bulk-payment/Step_17.jpg";
 // check balance
 import checkStep1 from "../assets/flows/check-balance/Step_1.jpg";
 import checkStep2 from "../assets/flows/check-balance/Step_2.jpg";
-import checkStep3 from "../assets/flows/check-balance/Step_3.jpg";
-import checkStep4 from "../assets/flows/check-balance/Step_4.jpg";
 
 // user access
 import userStep1 from "../assets/flows/user-access/Step_1.jpg";
@@ -201,9 +198,6 @@ import bankStep32 from "../assets/flows/bank-reconciliation/Step_32.jpg";
 import bankStep33 from "../assets/flows/bank-reconciliation/Step_33.jpg";
 import bankStep34 from "../assets/flows/bank-reconciliation/Step_34.jpg";
 import bankStep35 from "../assets/flows/bank-reconciliation/Step_35.jpg";
-import bankStep36 from "../assets/flows/bank-reconciliation/Step_36.jpg";
-import bankStep37 from "../assets/flows/bank-reconciliation/Step_37.jpg";
-import bankStep38 from "../assets/flows/bank-reconciliation/Step_38.jpg";
 
 // bharat connect
 import bharatStep1 from "../assets/flows/bharat-connect/Step_1.png";
@@ -239,8 +233,6 @@ import bharatStep30 from "../assets/flows/bharat-connect/Step_30.png";
 import bharatStep31 from "../assets/flows/bharat-connect/Step_31.png";
 import bharatStep32 from "../assets/flows/bharat-connect/Step_32.png";
 import bharatStep33 from "../assets/flows/bharat-connect/Step_33.png";
-import bharatStep34 from "../assets/flows/bharat-connect/Step_34.png";
-import bharatStep35 from "../assets/flows/bharat-connect/Step_35.png";
 
 export const demoCardDetails = [
   {
@@ -437,7 +429,7 @@ export const featureData = {
     cards: [
       "Available free trial: 7 days for Tally accounting software 30 days for Busy accounting software",
       "Enjoy multiple features: Bulk Payment, Bharat Connect, Account Aggregator etc.",
-      "Subscription charges - ₹100 + GST/ month for 1 year",
+      "Subscription charges - ₹1200 + GST Per Annum",
     ],
     note: "In this demo, let’s see how to subscribe in Bank Plugin",
     route: "subscription-flow",
@@ -493,7 +485,7 @@ export const flowData = {
       arrow: "left",
       points: [
         "New customers can click on the ERP platform to begin registration",
-        "Select the ERP platform (Tally/Busy) to proceed with the registration process",
+        "Select the ERP platform (Tally) to proceed with the registration process",
       ],
     },
     {
@@ -502,23 +494,23 @@ export const flowData = {
       note: "",
       position: { top: "72.5%", left: "42%", width: "30%" },
       arrow: "left",
-      points: ["Click on Register Now"],
+      points: ["Click on ‘Register Now’"],
     },
     {
       image: regStep3,
       title: "Registration Form Page",
-      note: "Please note: The mentioned Mobile number and password will only be used for Registration purposes",
+      note: "Please note: The mentioned Mobile number and password will only be used for Registration purposes.",
       position: { top: "60%", left: "18%", width: "30%" },
       arrow: "right",
       points: [
-        "Fill all the required registration details including Company Name, GST Number, State, Mobile Number, email address etc",
+        "Fill all the required registration details including Company Name, GST Number, State, Mobile Number, e-mail ID etc.",
       ],
     },
     {
       image: regStep4,
       title: "Accepting 1st Terms And Conditions",
       note: "",
-      position: { top: "45.5%", left: "19%", width: "30%" },
+      position: { top: "45.8%", left: "18%", width: "30%" },
       arrow: "right",
       points: [
         "Review and accept the first terms and conditions by selecting the checkbox",
@@ -531,7 +523,7 @@ export const flowData = {
       position: { top: "23%", left: "69%", width: "30%" },
       arrow: "right",
       points: [
-        "Terms and Conditions appear.",
+        "On the Terms and Conditions page",
         "Use scroller to scroll down and read the terms and conditions.",
       ],
     },
@@ -547,7 +539,7 @@ export const flowData = {
       image: regStep4,
       title: "Accepting 2nd Terms and Conditions",
       note: "",
-      position: { top: "56.5%", left: "19%", width: "30%" },
+      position: { top: "56.2%", left: "18%", width: "30%" },
       arrow: "right",
       points: ["Clicks on 2nd Check box to select Personal Data Consent"],
     },
@@ -558,8 +550,8 @@ export const flowData = {
       position: { top: "23%", left: "69%", width: "30%" },
       arrow: "right",
       points: [
-        "Personal Data Consent Appears",
-        "Use scroller to scroll down and read the personal data consent",
+        "On the Personal Data consent page",
+        "Use scroller to scroll down and read the Personal Data consent",
       ],
     },
     {
@@ -577,7 +569,7 @@ export const flowData = {
       position: { top: "40%", left: "39%", width: "30%" },
       arrow: "bottom",
       points: [
-        "Click on Continue to successfully complete your registration by entering the OTP sent to your mentioned mobile number.",
+        "Click on ‘Continue’ to successfully complete your registration",
       ],
     },
     {
@@ -598,7 +590,7 @@ export const flowData = {
       arrow: "left",
       points: [
         "Enter your Registered Mobile number and Password.",
-        "Click on Sign in button",
+        "Click on ‘Sign in’ button",
         "Your registration is successfully completed",
       ],
     },
@@ -627,27 +619,23 @@ export const flowData = {
       arrow: "",
       points: [
         "Select the subscription plan: Trial Period or Paid Subscription Plan",
-        "For trial period we have 7 days validity in Tally and 30 days for Busy",
+        "Kindly note, the trial period validity for Tally is 7 days and for Busy is 30 days.",
         "For 12 months’ validity plan: Review and click on Terms and Conditions checkbox",
       ],
     },
     {
       image: subStep3,
-      title: "Subscription Plan",
+      title: "Subscription Plan successfully completed",
       note: "",
       position: { top: "49%", left: "60%", width: "30%" },
       arrow: "",
-      points: [
-        "Select the subscription plan: Trial Period or Paid Subscription Plan",
-        "For trial period we have 7 days validity in Tally and 30 days for Busy",
-        "For 12 months’ validity plan: Review and click on Terms and Conditions checkbox",
-      ],
+      points: ["You have successfully activated the Paid/Free trial"],
     },
   ],
   "installation-flow": [
     {
       image: installStep1,
-      title: "Install TCP file",
+      title: "Install Tally Compliant Product (TCP) file",
       note: "Note: Download the File as per your ERP type (taking tally prime as example)",
       position: { top: "59%", left: "16%", width: "28%" },
       arrow: "right",
@@ -683,16 +671,16 @@ export const flowData = {
       arrow: "right",
       points: [
         "Click on F1 Help button available at the top right corner",
-        "A drop down menu",
+        "A drop-down menu opens",
       ],
     },
     {
       image: installStep5,
-      title: "Select the TDL",
+      title: "Select the Tally Definition Language (TDL)",
       note: "",
       position: { top: "30%", left: "64%", width: "30%" },
       arrow: "right",
-      points: ["Click on TDLs & AddOns"],
+      points: ["Click on TDLs & Add-ons"],
     },
     {
       image: installStep6,
@@ -704,14 +692,14 @@ export const flowData = {
     },
     {
       image: installStep7,
-      title: "Select the TDL",
+      title: "Select the path",
       note: "",
       position: { top: "55%", left: "34%", width: "30%" },
       arrow: "",
       points: [
         "Select the Load selected TDL files on startup as Yes",
         "Select the Drive option from the drop-down menu",
-        "Click on Downloads",
+        "Click on ‘Downloads’",
       ],
     },
     {
@@ -728,7 +716,7 @@ export const flowData = {
       note: "",
       position: { top: "40.5%", left: "82%", width: "20%" },
       arrow: "left",
-      points: ["Make “Load TDL” as “Yes”"],
+      points: ["Make Load TDL as ‘Yes’"],
     },
     {
       image: installStep10,
@@ -736,7 +724,7 @@ export const flowData = {
       note: "",
       position: { top: "34%", left: "77%", width: "24%" },
       arrow: "right",
-      points: ["Click on F6 Add Ons Features"],
+      points: ["Click on F6 for Add-ons Features"],
     },
     {
       image: installStep11,
@@ -762,7 +750,7 @@ export const flowData = {
     {
       image: accLinkStep2,
       title: "",
-      note: "Select the Bank Ledger to add Bank Account Details using Spacebar",
+      note: "Select ‘Bank Ledger’ to add Bank Account Details using the spacebar",
       position: { top: "46%", left: "70%", width: "28%" },
       arrow: "left",
       points: [],
@@ -775,13 +763,13 @@ export const flowData = {
       arrow: "top",
       points: [
         "Enter the Bank Details (IFSC, Account Number, Bank Name)",
-        "Click on Ctrl+A button to save the details",
+        "Use Ctrl+A buttons to save the details",
       ],
     },
     {
       image: accLinkStep4,
       title: "",
-      note: "Select the Yes option on the accept dialogue box",
+      note: "Select the ‘Yes’ option in the Accept Dialogue box",
       position: { top: "88%", left: "53%", width: "28%" },
       arrow: "right",
       points: [],
@@ -789,13 +777,13 @@ export const flowData = {
     {
       image: accLinkStep5,
       title: "",
-      note: "Select the Bank ledger using spacebar",
+      note: "Select the ‘Bank Ledger’ using the spacebar",
       position: { top: "46%", left: "80%", width: "25%" },
       arrow: "left",
       points: [],
     },
     {
-      image: accLinkStep6,
+      image: accLinkStep5,
       title: "",
       note: "Press F5: Enabling E- Banking button present on the right side of the screen",
       position: { top: "41%", left: "77%", width: "25%" },
@@ -803,7 +791,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: accLinkStep7,
+      image: accLinkStep6,
       title: "",
       note: "",
       position: { top: "16%", left: "55.5%", width: "29%" },
@@ -815,7 +803,7 @@ export const flowData = {
       ],
     },
     {
-      image: accLinkStep8,
+      image: accLinkStep7,
       title: "",
       note: "Click on Yes option",
       position: { top: "55%", left: "75%", width: "25%" },
@@ -823,15 +811,15 @@ export const flowData = {
       points: [],
     },
     {
-      image: accLinkStep9,
+      image: accLinkStep8,
       title: "",
-      note: "E-Banking Enabled Successfully",
-      position: { top: "82%", left: "66%", width: "20%" },
+      note: "E-Banking is enabled successfully",
+      position: { top: "82%", left: "65%", width: "25%" },
       arrow: "right",
       points: [],
     },
     {
-      image: accLinkStep10,
+      image: accLinkStep9,
       title: "",
       note: "Corp ID and User ID enabled Successfully",
       position: { top: "55%", left: "72%", width: "26%" },
@@ -839,30 +827,30 @@ export const flowData = {
       points: [],
     },
     {
-      image: accLinkStep11,
+      image: accLinkStep10,
       title: "",
-      note: "",
+      note: "Click on F4 to view the Balance",
       position: { top: "53%", left: "77%", width: "23%" },
       arrow: "right",
-      points: ["Click on F4 to view the Balance"],
+      points: [],
     },
     {
-      image: accLinkStep12,
+      image: accLinkStep11,
       title: "",
-      note: "",
+      note: "The balance reflects the figure as per tally and as per bank",
       position: { top: "41%", left: "49%", width: "36%" },
       arrow: "top",
-      points: ["The balance reflects the figure as per tally and as per bank"],
+      points: [],
     },
   ],
-  "token-generation": [
+  "token-generation-flow": [
     {
       image: tokenGenStep1,
       title: "",
-      note: "",
+      note: "⁠Click on F9 Manage Corp ID",
       position: { top: "68%", left: "76%", width: "25%" },
       arrow: "right",
-      points: ["⁠Click on F9 Manage Corp ID"],
+      points: [],
     },
     {
       image: tokenGenStep2,
@@ -875,22 +863,18 @@ export const flowData = {
     {
       image: tokenGenStep3,
       title: "",
-      note: "",
+      note: "Click on F10: Generate and submit Token present on the right side of the dashboard",
       position: { top: "67%", left: "76%", width: "28%" },
       arrow: "right",
-      points: [
-        "Click on F10: Generate and submit Token present on the right side of the dashboard",
-      ],
+      points: [],
     },
     {
       image: tokenGenStep4,
       title: "",
-      note: "",
+      note: "Press F4: Generate the Token present on the right side of the dashboard",
       position: { top: "44.5%", left: "75%", width: "28%" },
       arrow: "right",
-      points: [
-        "Click on F4: Generate Token present on the right side of the dashboard",
-      ],
+      points: [],
     },
     {
       image: tokenGenStep5,
@@ -899,14 +883,14 @@ export const flowData = {
       position: { top: "27.5%", left: "83%", width: "26%" },
       arrow: "left",
       points: [
-        "The login Page of CIB opens",
-        "Login into CIB using Login ID and Password",
+        "The login page of Corporate Net Banking opens",
+        "Log into Corporate Net Banking using your login ID and password",
       ],
     },
     {
       image: tokenGenStep5,
       title: "",
-      note: "Click on Proceed",
+      note: "Click on ‘Proceed’",
       position: { top: "58%", left: "69.4%", width: "20%" },
       arrow: "top",
       points: [],
@@ -914,7 +898,7 @@ export const flowData = {
     {
       image: tokenGenStep6,
       title: "",
-      note: "Welcome to Corporate Internet Banking Platform",
+      note: "Welcome to the Corporate Net Banking platform",
       position: { top: "10%", left: "31%", width: "28%" },
       arrow: "left",
       points: [],
@@ -974,14 +958,14 @@ export const flowData = {
       position: { top: "48%", left: "77%", width: "34%" },
       arrow: "left",
       points: [
-        "Submit the token you generated from the CIB platform on Tally.",
+        "Submit the Token you generated from the Corporate Net Banking platform on Tally",
         "Press enter to continue",
       ],
     },
     {
       image: tokenGenStep14,
       title: "",
-      note: "Click on Yes button",
+      note: "Click on the ‘Yes’ button",
       position: { top: "69.5%", left: "72%", width: "20%" },
       arrow: "left",
       points: [],
@@ -999,7 +983,7 @@ export const flowData = {
     {
       image: corpStep1,
       title: "",
-      note: "Select Bank Plugin from Gateway of Tally",
+      note: "Select Bank Plugin from the Payment Gateway",
       position: { top: "55.6%", left: "45%", width: "26%" },
       arrow: "right",
       points: [],
@@ -1015,7 +999,7 @@ export const flowData = {
     {
       image: corpStep3,
       title: "",
-      note: "Press Y",
+      note: "Select the ‘Yes’ button",
       position: { top: "75%", left: "50%", width: "26%" },
       arrow: "right",
       points: [],
@@ -1023,7 +1007,7 @@ export const flowData = {
     {
       image: corpStep4,
       title: "",
-      note: "Enter CIB login ID of ICICI Bank Current Account and click on Regsiter",
+      note: "Enter the Corporate Net Banking login ID of your ICICI Bank Current Account and click on ‘Register’",
       position: { top: "72%", left: "56%", width: "26%" },
       arrow: "left",
       points: [],
@@ -1031,7 +1015,7 @@ export const flowData = {
     {
       image: corpStep5,
       title: "",
-      note: "Click on “Approve” to approve the registration request on CIB Platform",
+      note: "Click on ‘Approve’ to approve the registration request on the Corporate Net Banking platform",
       position: { top: "72%", left: "56%", width: "34%" },
       arrow: "left",
       points: [],
@@ -1039,7 +1023,7 @@ export const flowData = {
     {
       image: corpStep6,
       title: "",
-      note: "Login to ICICI Bank CIB Platform",
+      note: "Log into the ICICI Bank Corporate Net Banking platform",
       position: { top: "65%", left: "72%", width: "28%" },
       arrow: "top",
       points: [],
@@ -1063,7 +1047,7 @@ export const flowData = {
     {
       image: corpStep10,
       title: "",
-      note: "All the pending Connected Banking request for “Tally ERP Plugin” is shown",
+      note: "All the pending Connected Banking requests for Tally ERP Plugin will be displayed",
       position: { top: "59%", left: "72.5%", width: "25%" },
       arrow: "top",
       points: [],
@@ -1079,7 +1063,7 @@ export const flowData = {
     {
       image: corpStep12,
       title: "",
-      note: "Enter the One Time Password and Confirm",
+      note: "Enter the One-Time Password and Confirm",
       position: { top: "62%", left: "55%", width: "25%" },
       arrow: "left",
       points: [],
@@ -1090,7 +1074,10 @@ export const flowData = {
       note: "",
       position: { top: "47%", left: "76%", width: "25%" },
       arrow: "right",
-      points: ["The status changes to registered", "Go to your Tally"],
+      points: [
+        "The status changes to registered",
+        "Go to Tally accounting software",
+      ],
     },
     {
       image: corpStep14,
@@ -1121,7 +1108,7 @@ export const flowData = {
     {
       image: accLinkStep1,
       title: "",
-      note: "Go to “Alt+F3: Configure Accounts” on Bank Plugin Dashboard",
+      note: "Go to Configure Accounts (Alt+F3) on Bank Plugin dashboard",
       position: { top: "13%", left: "74%", width: "30%" },
       arrow: "right",
       points: [],
@@ -1153,7 +1140,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: accAggStep5,
+      image: accAggStep4,
       title: "",
       note: "",
       position: { top: "50%", left: "83%", width: "30%" },
@@ -1164,15 +1151,15 @@ export const flowData = {
       ],
     },
     {
-      image: accAggStep8,
+      image: accAggStep7,
       title: "",
-      note: "Approve the account for which statement needs to be fetched.",
+      note: "Approve the account for which the statement needs to be fetched",
       position: { top: "62%", left: "60.5%", width: "30%" },
       arrow: "bottom",
       points: [],
     },
     {
-      image: accAggStep6,
+      image: accAggStep5,
       title: "",
       note: "Select bank account",
       position: { top: "84.5%", left: "79%", width: "25%" },
@@ -1180,7 +1167,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: accAggStep6,
+      image: accAggStep5,
       title: "",
       note: "Click on Request for OTP",
       position: { top: "81%", left: "50%", width: "25%" },
@@ -1188,7 +1175,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: accAggStep7,
+      image: accAggStep6,
       title: "",
       note: "Enter the OTP and click on Submit OTP",
       position: { top: "80%", left: "80%", width: "25%" },
@@ -1196,7 +1183,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: accAggStep9,
+      image: accAggStep8,
       title: "",
       note: "Provide the Consent by clicking on “Approve Consent”",
       position: { top: "89%", left: "18%", width: "32%" },
@@ -1204,24 +1191,24 @@ export const flowData = {
       points: [],
     },
     {
-      image: accAggStep10,
+      image: accAggStep9,
       title: "",
       note: "",
       position: { top: "50%", left: "75%", width: "32%" },
       arrow: "left",
       points: [
-        "Process completed. You can now fetch Statement of banks other than ICICI Bank.",
+        "Process is completed. You can now fetch statement of banks other than ICICI Bank",
         "Please return to Tally to check the status.",
       ],
     },
     {
-      image: accAggStep11,
+      image: accAggStep10,
       title: "",
-      note: "Note: If the account is not linked automatically, use Link Ledger option to link Bank Ledger against bank account",
+      note: "Note: If the account is not linked automatically, use the Link Ledger option to link the Bank Account with the Bank Ledger",
       position: { top: "57%", left: "73%", width: "34%" },
       arrow: "top",
       points: [
-        "Press Enter to refresh status. Your bank account linked successfully with the bank ledger",
+        "Press Enter to refresh status. Your Bank Account is linked successfully with the Bank Ledger",
       ],
     },
   ],
@@ -1269,7 +1256,7 @@ export const flowData = {
     {
       image: singleStep18,
       title: "",
-      note: "Let’s Learn How to Use <strong>‘Pay Now’</strong>",
+      note: "Payment Through Pay Now",
       position: { top: "50%", left: "50%", width: "30%" },
       arrow: "",
       points: [],
@@ -1317,12 +1304,10 @@ export const flowData = {
     {
       image: singleStep10,
       title: "",
-      note: "",
+      note: "Note: OTP will be sent to the mobile number registered under the Current Account against the User ID.",
       position: { top: "78.5%", left: "73.5%", width: "30%" },
       arrow: "left",
-      points: [
-        "OTP will be received on Registered Mobile No of Current Account against the UserID.",
-        "If Maker-Checker workflow is present, then Checker has to approve the transaction on CIB",
+      points: ["Click on OTP", "If Maker-Checker workflow is present, then the Checker has to approve the transaction on Corporate Net Banking.",
       ],
     },
     {
@@ -1344,7 +1329,7 @@ export const flowData = {
     {
       image: singleStep13,
       title: "",
-      note: "Accept the Yes Button",
+      note: "Click on the ‘Yes’ button",
       position: { top: "89%", left: "48%", width: "25%" },
       arrow: "right",
       points: [],
@@ -1352,7 +1337,7 @@ export const flowData = {
     {
       image: singleStep14,
       title: "",
-      note: "Payment initiated successfully",
+      note: "Payment is initiated successfully",
       position: { top: "85%", left: "66%", width: "25%" },
       arrow: "right",
       points: [],
@@ -1384,7 +1369,7 @@ export const flowData = {
     {
       image: singleStep18,
       title: "",
-      note: "Let’s Learn How to Use <strong>‘Pay by Ledger’</strong>",
+      note: "Payment Through F9: Pay by Ledger",
       position: { top: "50%", left: "50%", width: "30%" },
       arrow: "",
       points: [],
@@ -1392,7 +1377,7 @@ export const flowData = {
     {
       image: singleStep18,
       title: "",
-      note: "Click on Pay by Ledger (F9) if voucher is not present to directly Pay your vendor, Voucher will be auto-created and auto-reconciled",
+      note: "Click on F9: Pay by Ledger. If the voucher is not directly presented to pay your vendor, it will be auto-created and auto-reconciled.",
       position: { top: "55%", left: "74%", width: "30%" },
       arrow: "right",
       points: [],
@@ -1400,7 +1385,7 @@ export const flowData = {
     {
       image: singleStep19,
       title: "",
-      note: "Select Voucher Type",
+      note: "Select the Voucher Type",
       position: { top: "39%", left: "50%", width: "30%" },
       arrow: "top",
       points: [],
@@ -1464,18 +1449,16 @@ export const flowData = {
     {
       image: singleStep26,
       title: "",
-      note: "",
+      note: "Note: OTP will be sent to the mobile number registered under the Current Account against the User ID.",
       position: { top: "74.5%", left: "70%", width: "28%" },
       arrow: "left",
-      points: [
-        "Note: OTP will be received on Registered Mobile No of Current Account against the UserID.",
-        "If Maker-Checker workflow is present, then Checker has to approve the transaction on CIB",
+      points: ["Click on OTP", "If Maker-Checker workflow is present, then the Checker has to approve the transaction on Corporate Net Banking.",
       ],
     },
     {
       image: singleStep27,
       title: "",
-      note: "OTP generated successfully",
+      note: "OTP is generated successfully",
       position: { top: "75%", left: "60%", width: "25%" },
       arrow: "right",
       points: [],
@@ -1491,7 +1474,7 @@ export const flowData = {
     {
       image: singleStep29,
       title: "",
-      note: "Accept the Yes Button",
+      note: "Click on the ‘Yes’ button",
       position: { top: "89%", left: "48%", width: "25%" },
       arrow: "right",
       points: [],
@@ -1499,7 +1482,7 @@ export const flowData = {
     {
       image: singleStep18,
       title: "",
-      note: "Let’s Learn How to Use <strong>‘Ad-hoc Voucher’</strong>",
+      note: "Payment By Ad hoc Payment Voucher",
       position: { top: "50%", left: "50%", width: "30%" },
       arrow: "",
       points: [],
@@ -1507,11 +1490,11 @@ export const flowData = {
     {
       image: singleStep31,
       title: "",
-      note: "Note: Voucher will be auto created in Suspense Account and will be auto reconciled",
+      note: "Note: The voucher will be auto created in the Suspense Account and will be auto reconciled.",
       position: { top: "60%", left: "77%", width: "25%" },
       arrow: "right",
       points: [
-        "Click on Ad hoc Voucher F10 if party ledger is not created and only account details are available",
+        "Click on F10: Ad hoc Voucher if the party ledger is not created and only the Account details are available.",
       ],
     },
     {
@@ -1581,12 +1564,10 @@ export const flowData = {
     {
       image: singleStep40,
       title: "",
-      note: "",
+      note: "Note: OTP will be sent to the mobile number registered under the Current Account against the User ID.",
       position: { top: "74.5%", left: "70%", width: "25%" },
       arrow: "left",
-      points: [
-        "Note: OTP will be received on Registered Mobile No of Current Account against the UserID.",
-        "If Maker-Checker workflow is present, then Checker has to approve the transaction on CIB",
+      points: ["Click on OTP", "If Maker-Checker workflow is present, then the Checker has to approve the transaction on Corporate Net Banking.",
       ],
     },
     {
@@ -1608,7 +1589,7 @@ export const flowData = {
     {
       image: singleStep43,
       title: "",
-      note: "Accept the Yes Button",
+      note: "Click on the ‘Yes’ button",
       position: { top: "89%", left: "48%", width: "25%" },
       arrow: "right",
       points: [],
@@ -1780,7 +1761,7 @@ export const flowData = {
     {
       image: bulkStep6,
       title: "",
-      note: "Select the Date Range",
+      note: "Click on F7: Bulk Pay Now",
       position: { top: "52%", left: "75%", width: "28%" },
       arrow: "right",
       points: [],
@@ -1788,7 +1769,7 @@ export const flowData = {
     {
       image: bulkStep7,
       title: "",
-      note: "You’ll have the option to Review/Add/Edit the Email ID and WhatsApp alert number.<br/>Please note: These fields are optional and will auto-fill if already saved in the ledger.",
+      note: "You’ll have the option to Review/Add/Edit the E-mail ID and the number to receive WhatsApp alerts Please note: These fields are optional and will auto-fill if already saved in the ledger.",
       position: { top: "75%", left: "50%", width: "32%" },
       arrow: "",
       points: [],
@@ -1828,7 +1809,7 @@ export const flowData = {
     {
       image: bulkStep11,
       title: "",
-      note: "Click on Yes",
+      note: "Click on ‘Yes’",
       position: { top: "77%", left: "46%", width: "28%" },
       arrow: "right",
       points: [],
@@ -1836,7 +1817,7 @@ export const flowData = {
     {
       image: bulkStep12,
       title: "",
-      note: "Transaction processed successfully",
+      note: "Transaction is processed successfully",
       position: { top: "83%", left: "62%", width: "28%" },
       arrow: "right",
       points: [],
@@ -1844,7 +1825,7 @@ export const flowData = {
     {
       image: bulkStep13,
       title: "",
-      note: "All transactions will be marked as Pending initially.",
+      note: "All transactions will be marked as ‘Pending’ initially",
       position: { top: "62%", left: "63%", width: "34%" },
       arrow: "right",
       points: [],
@@ -1868,7 +1849,7 @@ export const flowData = {
     {
       image: bulkStep16,
       title: "",
-      note: "Select the Payment Status as Success",
+      note: "Select the Payment Status as ‘Success’",
       position: { top: "68.5%", left: "38%", width: "28%" },
       arrow: "right",
       points: [],
@@ -1886,7 +1867,7 @@ export const flowData = {
     {
       image: checkStep1,
       title: "",
-      note: "Click on “F4: Check Balance” for Balance Fetch",
+      note: "Click on F4: Check Balance for balance fetching",
       position: { top: "52.5%", left: "74%", width: "30%" },
       arrow: "right",
       points: [],
@@ -1900,17 +1881,17 @@ export const flowData = {
       points: [],
     },
     {
-      image: checkStep3,
+      image: checkStep2,
       title: "",
-      note: "Click F5 “Refresh ICICI Bank CIB Balance” for Fetching Updated Balance",
+      note: "Click F5: Refresh Balance for fetching updated balance",
       position: { top: "49%", left: "74%", width: "30%" },
       arrow: "right",
       points: [],
     },
     {
-      image: checkStep4,
+      image: checkStep2,
       title: "",
-      note: "The updated Balance will be updated",
+      note: "The balance will be updated",
       position: { top: "41%", left: "55%", width: "30%" },
       arrow: "top",
       points: [],
@@ -1928,7 +1909,7 @@ export const flowData = {
     {
       image: userStep2,
       title: "",
-      note: "Select the Users and Passwords",
+      note: "Select the User/s and Password/s",
       position: { top: "32.5%", left: "42%", width: "30%" },
       arrow: "left",
       points: [],
@@ -1944,7 +1925,7 @@ export const flowData = {
     {
       image: userStep4,
       title: "",
-      note: "Under Allow Bank Plugin chose Yes/No",
+      note: "Under Allow Bank Plugin choose ‘Yes/No’",
       position: { top: "52.5%", left: "80%", width: "30%" },
       arrow: "top",
       points: [],
@@ -2000,7 +1981,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep5,
+      image: bankStep4,
       title: "",
       note: "Fill out the Configurations and save it",
       position: { top: "55%", left: "45%", width: "28%" },
@@ -2008,7 +1989,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep6,
+      image: bankStep5,
       title: "",
       note: "Select Match not found entries from Bank statement",
       position: { top: "42%", left: "53%", width: "32%" },
@@ -2016,7 +1997,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep7,
+      image: bankStep5,
       title: "",
       note: "Press F10 Create/Match voucher to reconcile with already created voucher",
       position: { top: "63%", left: "73%", width: "32%" },
@@ -2024,7 +2005,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep8,
+      image: bankStep6,
       title: "",
       note: "Select Ledger  from “List of Ledgers”",
       position: { top: "16%", left: "51%", width: "32%" },
@@ -2032,15 +2013,15 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep9,
+      image: bankStep7,
       title: "",
-      note: "If the voucher is not created, create a new voucher by selecting Not Applicable",
+      note: "If the voucher is not created, create a new voucher by selecting ‘Not Applicable’",
       position: { top: "70%", left: "12.5%", width: "31%" },
       arrow: "right",
       points: [],
     },
     {
-      image: bankStep10,
+      image: bankStep8,
       title: "",
       note: "Select the voucher type",
       position: { top: "63%", left: "80.8%", width: "28%" },
@@ -2048,15 +2029,15 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep11,
+      image: bankStep9,
       title: "",
-      note: "Click on accept it.",
+      note: "Click on ‘Accept it’",
       position: { top: "71%", left: "45%", width: "28%" },
       arrow: "right",
       points: [],
     },
     {
-      image: bankStep12,
+      image: bankStep10,
       title: "",
       note: "Press Yes to save Voucher",
       position: { top: "89%", left: "67%", width: "28%" },
@@ -2064,15 +2045,15 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep13,
+      image: bankStep11,
       title: "",
-      note: "Bank Statement will automatically display as “Reconciled with Tally”",
+      note: "The bank statement will automatically display as ‘Reconciled with Tally’",
       position: { top: "53%", left: "34%", width: "30%" },
       arrow: "right",
       points: [],
     },
     {
-      image: bankStep13,
+      image: bankStep11,
       title: "",
       note: "Multiple Reconciliation process for payments done outside Bank Plugin",
       position: { top: "54%", left: "44%", width: "30%" },
@@ -2080,7 +2061,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep14,
+      image: bankStep12,
       title: "",
       note: "Select multiple transaction entries using the spacebar",
       position: { top: "55%", left: "50%", width: "32%" },
@@ -2088,7 +2069,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep15,
+      image: bankStep13,
       title: "",
       note: "Enter the Ledger name",
       position: { top: "55%", left: "38%", width: "28%" },
@@ -2096,7 +2077,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep16,
+      image: bankStep14,
       title: "",
       note: "Select the ledger from the ledger list",
       position: { top: "16%", left: "53%", width: "28%" },
@@ -2104,7 +2085,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep17,
+      image: bankStep15,
       title: "",
       note: "Select the Voucher number as per the requirement",
       position: { top: "71%", left: "30%", width: "32%" },
@@ -2112,31 +2093,31 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep18,
+      image: bankStep16,
       title: "",
-      note: "Do the bill wise adjustment as per requirements",
+      note: "Complete the bill wise adjustment as per requirements",
       position: { top: "59%", left: "22%", width: "32%" },
       arrow: "right",
       points: [],
     },
     {
-      image: bankStep19,
+      image: bankStep17,
       title: "",
-      note: "Fill the Amount and select the Dr/Cr",
+      note: "Fill the amount and select the Debit/Credit option",
       position: { top: "54.5%", left: "84%", width: "30%" },
       arrow: "left",
       points: [],
     },
     {
-      image: bankStep20,
+      image: bankStep18,
       title: "",
-      note: "Fill the Amount and select the Dr/Cr",
+      note: "Enter the Ledger name",
       position: { top: "67%", left: "36%", width: "30%" },
       arrow: "right",
       points: [],
     },
     {
-      image: bankStep21,
+      image: bankStep19,
       title: "",
       note: "Select the Ledger from the ledger list",
       position: { top: "46%", left: "52.5%", width: "30%" },
@@ -2144,7 +2125,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep22,
+      image: bankStep20,
       title: "",
       note: "Select the option as yes. The voucher will be reconciled.",
       position: { top: "77%", left: "57%", width: "34%" },
@@ -2152,7 +2133,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep23,
+      image: bankStep21,
       title: "",
       note: "Download Report",
       position: { top: "55%", left: "50%", width: "28%" },
@@ -2160,7 +2141,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep24,
+      image: bankStep22,
       title: "",
       note: "Click on ‘Ctrl D’",
       position: { top: "92%", left: "75%", width: "28%" },
@@ -2168,7 +2149,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep25,
+      image: bankStep23,
       title: "",
       note: "Select the Folder Path where you wish to save the statement",
       position: { top: "62%", left: "85%", width: "30%" },
@@ -2176,7 +2157,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep26,
+      image: bankStep24,
       title: "",
       note: "Choose the File format",
       position: { top: "55.5%", left: "87%", width: "28%" },
@@ -2184,7 +2165,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep27,
+      image: bankStep25,
       title: "",
       note: "The file starts downloading",
       position: { top: "25%", left: "45%", width: "28%" },
@@ -2192,7 +2173,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep28,
+      image: bankStep26,
       title: "",
       note: "The file can be viewed in the excel sheet",
       position: { top: "35%", left: "55%", width: "28%" },
@@ -2200,7 +2181,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep29,
+      image: bankStep27,
       title: "",
       note: "Reconcile multiple ledgers with one payment with Multiple ledgers",
       position: { top: "28%", left: "45%", width: "30%" },
@@ -2208,7 +2189,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep30,
+      image: bankStep27,
       title: "",
       note: "Select the voucher",
       position: { top: "45%", left: "45%", width: "30%" },
@@ -2216,7 +2197,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep31,
+      image: bankStep28,
       title: "",
       note: "Select the ledger",
       position: { top: "45%", left: "52%", width: "30%" },
@@ -2224,15 +2205,15 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep32,
+      image: bankStep29,
       title: "",
-      note: "Select the multiple ledger as yes",
+      note: "Select the multiple ledger option as ‘Yes’",
       position: { top: "56%", left: "63%", width: "30%" },
       arrow: "left",
       points: [],
     },
     {
-      image: bankStep33,
+      image: bankStep30,
       title: "",
       note: "Select the ledger",
       position: { top: "20%", left: "52%", width: "30%" },
@@ -2240,7 +2221,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep34,
+      image: bankStep31,
       title: "",
       note: "Selected ledger will be added",
       position: { top: "50%", left: "78.5%", width: "30%" },
@@ -2248,23 +2229,23 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep35,
+      image: bankStep32,
       title: "",
-      note: "Select the Date Range",
+      note: "Select the voucher type",
       position: { top: "67.5%", left: "81%", width: "28%" },
       arrow: "left",
       points: [],
     },
     {
-      image: bankStep36,
+      image: bankStep33,
       title: "",
-      note: "Accept the option as Yes",
+      note: "Accept the option as ‘Yes’",
       position: { top: "71%", left: "45%", width: "28%" },
       arrow: "right",
       points: [],
     },
     {
-      image: bankStep37,
+      image: bankStep34,
       title: "",
       note: "Press Accept to save Voucher",
       position: { top: "85%", left: "30%", width: "28%" },
@@ -2272,9 +2253,9 @@ export const flowData = {
       points: [],
     },
     {
-      image: bankStep38,
+      image: bankStep35,
       title: "",
-      note: "The status gets changed to Reconciled with Tally",
+      note: "The status gets changed to ‘Reconciled with Tally’",
       position: { top: "42%", left: "53%", width: "30%" },
       arrow: "bottom",
       points: [],
@@ -2386,15 +2367,18 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep14,
+      image: bharatStep13,
       title: "",
       note: "",
       position: { top: "21%", left: "73%", width: "32%" },
       arrow: "right",
-      points: ["Buyer selects the invoice(s)", "Press Ctrl + F4 to view the invoice details."],
+      points: [
+        "Buyer selects the invoice(s)",
+        "Press Ctrl + F4 to view the invoice details.",
+      ],
     },
     {
-      image: bharatStep15,
+      image: bharatStep14,
       title: "",
       note: "Buyer has option to either Accept or Reject the Invoice",
       position: { top: "25.5%", left: "73%", width: "32%" },
@@ -2402,15 +2386,18 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep16,
+      image: bharatStep15,
       title: "",
       note: "",
       position: { top: "61.5%", left: "25.5%", width: "32%" },
       arrow: "right",
-      points: ["If Buyer Accept Invoice, option appears to select Auto post Purchase voucher", "Click “Yes” to post"],
+      points: [
+        "If Buyer Accept Invoice, option appears to select Auto post Purchase voucher",
+        "Click “Yes” to post",
+      ],
     },
     {
-      image: bharatStep17,
+      image: bharatStep16,
       title: "",
       note: "Then the Buyer needs to complete the Item Mapping in the Item Mapping window.",
       position: { top: "33%", left: "86%", width: "30%" },
@@ -2418,7 +2405,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep18,
+      image: bharatStep17,
       title: "",
       note: " After completing the Item Mapping, the invoice status changes to “Accepted.”",
       position: { top: "46%", left: "62%", width: "30%" },
@@ -2426,15 +2413,18 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep19,
+      image: bharatStep18,
       title: "",
       note: "",
       position: { top: "46%", left: "73%", width: "32%" },
       arrow: "right",
-      points: ["If the Buyer wants to send the invoice for review:", "Click on “Send for Review”"],
+      points: [
+        "If the Buyer wants to send the invoice for review:",
+        "Click on “Send for Review”",
+      ],
     },
     {
-      image: bharatStep20,
+      image: bharatStep19,
       title: "",
       note: " Enter the required remarks",
       position: { top: "64%", left: "73%", width: "28%" },
@@ -2442,7 +2432,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep21,
+      image: bharatStep20,
       title: "",
       note: " Note: The same status will also be reflected on the Supplier Dashboard.",
       position: { top: "38%", left: "42%", width: "30%" },
@@ -2450,7 +2440,7 @@ export const flowData = {
       points: ["The invoice will be marked as “Under Review”"],
     },
     {
-      image: bharatStep22,
+      image: bharatStep21,
       title: "",
       note: "If the Buyer wants to reject the invoice.<br/>1. Click on “Reject”",
       position: { top: "43%", left: "75%", width: "28%" },
@@ -2458,7 +2448,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep23,
+      image: bharatStep22,
       title: "",
       note: "Enter the required remarks",
       position: { top: "63%", left: "73%", width: "28%" },
@@ -2466,7 +2456,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep24,
+      image: bharatStep23,
       title: "",
       note: "The invoice will be marked as “Rejected”<br/>Note: The same status will also be reflected on the Supplier Dashboard.",
       position: { top: "41.5%", left: "43.5%", width: "30%" },
@@ -2474,7 +2464,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep25,
+      image: bharatStep23,
       title: "",
       note: "To make payment for accepted invoices,<br/>1.      Buyer selects the invoice<br/>2.      Clicks on the “Pay Now” button.",
       position: { top: "52%", left: "74%", width: "30%" },
@@ -2482,15 +2472,18 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep26,
+      image: bharatStep24,
       title: "",
       note: "",
       position: { top: "78%", left: "74%", width: "30%" },
       arrow: "left",
-      points: ["Buyer fills in the required details to proceed with the payment.", "Buyer Clicks F4 to Generate OTP"],
+      points: [
+        "Buyer fills in the required details to proceed with the payment.",
+        "Buyer Clicks F4 to Generate OTP",
+      ],
     },
     {
-      image: bharatStep27,
+      image: bharatStep25,
       title: "",
       note: "Buyer enters the OTP, and the transaction is successfully completed.",
       position: { top: "81%", left: "56%", width: "34%" },
@@ -2498,7 +2491,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep28,
+      image: bharatStep26,
       title: "",
       note: "The status of the invoice changes to “Payment Initiated.”",
       position: { top: "34%", left: "40%", width: "34%" },
@@ -2506,7 +2499,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep29,
+      image: bharatStep27,
       title: "",
       note: "The Supplier can confirm or view the payment by clicking on “Confirm/View Payment.”",
       position: { top: "58%", left: "72%", width: "34%" },
@@ -2514,7 +2507,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep30,
+      image: bharatStep28,
       title: "",
       note: "Supplier can accept the payment by pressing F5 till then Status appears as Confirmation Pending",
       position: { top: "18%", left: "72%", width: "34%" },
@@ -2522,7 +2515,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep31,
+      image: bharatStep29,
       title: "",
       note: "Payment successfully accepted.",
       position: { top: "81%", left: "60%", width: "28%" },
@@ -2530,7 +2523,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep32,
+      image: bharatStep30,
       title: "",
       note: "The status is updated to “Confirmed.”",
       position: { top: "29%", left: "65%", width: "30%" },
@@ -2538,7 +2531,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep33,
+      image: bharatStep31,
       title: "",
       note: "The status on both the Supplier and Buyer dashboards gets updated to “Fully Paid.”",
       position: { top: "34%", left: "43%", width: "30%" },
@@ -2546,7 +2539,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep34,
+      image: bharatStep32,
       title: "",
       note: "Buyer Bank Statement:-<br/>After the payment is completed, it gets automatically reconciled with the bank statement.",
       position: { top: "63%", left: "53.5%", width: "32%" },
@@ -2554,7 +2547,7 @@ export const flowData = {
       points: [],
     },
     {
-      image: bharatStep35,
+      image: bharatStep33,
       title: "",
       note: "Supplier Bank Statement:-<br/>After the payment is completed, it gets automatically reconciled with the bank statement.",
       position: { top: "55%", left: "50%", width: "32%" },

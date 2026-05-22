@@ -1,16 +1,29 @@
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import scrollGif from "../../assets/icons/gifs/scrolll.gif";
 import whiteArrow from "../../assets/icons/white-arrow.png";
 import { demoCardDetails, onboardingCardDetails } from "../../utils/constant";
 import orangeArrow from "../../assets/icons/orange-arrow.png";
 import walletIcon from "../../assets/icons/wallet-icon.png";
+import { useEffect } from "react";
 
 export default function HomePage() {
   const navigate = useNavigate();
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (!hash) return;
+    if (hash === "#tally") {
+      document.getElementById("tally-section")?.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  }, [hash]);
+
   return (
     <>
       {/* HERO */}
       <section className="bg-[radial-gradient(134.32%_134.32%_at_119.19%_-6.07%,#DB620A66_0%,#DB620A00_100%)]">
-        <div className="w-full px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-40 py-20 md:py-24">
+        <div className="relative w-full max-w-[1920px] mx-auto px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-40 py-20 md:py-24">
           <h1 className="text-[30px] md:text-[50px] font-black leading-[1.1] max-w-[680px]">
             Experience Effortless Banking with{" "}
             <span className="text-[#DB620A]">Bank Plugin</span>
@@ -19,7 +32,7 @@ export default function HomePage() {
             Introducing Bank Plugin – an Industry first solution designed to
             seamlessly integrate banking with desktop-based accounting software.
           </p>
-          <button
+          {/* <button
             className="flex justify-center items-center gap-2 mt-8 bg-[#DB620A] text-white px-6 py-3 rounded-[10px] shadow-md hover:bg-[#DB620ACC] transition text-[15px] font-medium cursor-pointer"
             onClick={() =>
               window.open(
@@ -36,12 +49,25 @@ export default function HomePage() {
               className="transform rotate-180"
               width={15}
             />
-          </button>
+          </button> */}
+          <img
+            src={scrollGif}
+            alt="icon"
+            className="absolute -bottom-11 left-1/2 -translate-x-1/2 w-[140px] cursor-pointer"
+            onClick={() => {
+              document
+                .getElementById("erp-section")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+          />
         </div>
       </section>
       {/* PRODUCT DEMO */}
-      <section className="py-20 border-t border-[#97291E33]">
-        <div className="w-full px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-40">
+      <section id="tally-section" className="py-20 border-t border-[#97291E33]">
+        <div
+          id="erp-section"
+          className="w-full max-w-[1920px] mx-auto px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-40"
+        >
           <div className="text-center max-w-[700px] mx-auto">
             <h2 className="text-[30px] md:text-[40px] font-black">
               Bank Plugin Product Demo Centre
@@ -96,7 +122,7 @@ export default function HomePage() {
       </section>
       {/* ONBOARDING */}
       <section className="bg-[#DB620A0F] py-20">
-        <div className="w-full px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-40">
+        <div className="w-full max-w-[1920px] mx-auto px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-40">
           <div className="text-center mx-auto">
             <h2 className="text-[30px] md:text-[40px] font-black">
               Stages of Onboarding in Bank Plugin

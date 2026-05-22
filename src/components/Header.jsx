@@ -1,18 +1,28 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import iciciLogo from "../assets/icons/icici-logo.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleLogoClick = () => {
+    if (location.pathname === "/") {
+      window.open("https://www.bankplugin.com", "_blank", "noopener,noreferrer");
+    } else {
+      navigate("/");
+    }
+  };
+
   return (
     <header className="h-[65px] bg-gradient-to-b from-[#EF7F1A] to-[#BE2A2A]">
-      <div className="w-full flex justify-between items-center px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-40 h-full">
+      <div className="w-full max-w-[1920px] mx-auto flex justify-between items-center px-6 md:px-10 lg:px-16 xl:px-24 2xl:px-40 h-full">
         <div className="relative">
           <img
             src={iciciLogo}
             alt="ICICI Bank"
-            onClick={() => navigate("/")}
+            onClick={handleLogoClick}
             className="h-[44px] w-auto object-contain cursor-pointer"
           />
           <span className="absolute -bottom-2 right-2 text-[20px] font-bold text-[#962A1E] translate-y-full">
