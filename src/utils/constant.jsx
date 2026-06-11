@@ -234,6 +234,40 @@ import bharatStep31 from "../assets/flows/bharat-connect/Step_31.png";
 import bharatStep32 from "../assets/flows/bharat-connect/Step_32.png";
 import bharatStep33 from "../assets/flows/bharat-connect/Step_33.png";
 
+// loop payment
+import loopStep1 from "../assets/flows/loop-payment/Step_1.png";
+import loopStep2 from "../assets/flows/loop-payment/Step_2.png";
+import loopStep3 from "../assets/flows/loop-payment/Step_3.png";
+import loopStep4 from "../assets/flows/loop-payment/Step_4.png";
+import loopStep5 from "../assets/flows/loop-payment/Step_5.png";
+import loopStep6 from "../assets/flows/loop-payment/Step_6.png";
+import loopStep7 from "../assets/flows/loop-payment/Step_7.png";
+import loopStep8 from "../assets/flows/loop-payment/Step_8.png";
+import loopStep9 from "../assets/flows/loop-payment/Step_9.png";
+import loopStep10 from "../assets/flows/loop-payment/Step_10.png";
+import loopStep11 from "../assets/flows/loop-payment/Step_11.png";
+import loopStep12 from "../assets/flows/loop-payment/Step_12.png";
+import loopStep13 from "../assets/flows/loop-payment/Step_13.png";
+import loopStep14 from "../assets/flows/loop-payment/Step_14.png";
+import loopStep15 from "../assets/flows/loop-payment/Step_15.png";
+import loopStep16 from "../assets/flows/loop-payment/Step_16.png";
+
+// import excel
+import excelStep1 from "../assets/flows/import-excel/Step_1.png";
+import excelStep2 from "../assets/flows/import-excel/Step_2.png";
+import excelStep3 from "../assets/flows/import-excel/Step_3.png";
+import excelStep4 from "../assets/flows/import-excel/Step_4.png";
+import excelStep5 from "../assets/flows/import-excel/Step_5.png";
+import excelStep6 from "../assets/flows/import-excel/Step_6.png";
+import excelStep7 from "../assets/flows/import-excel/Step_7.png";
+import excelStep8 from "../assets/flows/import-excel/Step_8.png";
+import excelStep9 from "../assets/flows/import-excel/Step_9.png";
+import excelStep10 from "../assets/flows/import-excel/Step_10.png";
+import excelStep11 from "../assets/flows/import-excel/Step_11.png";
+import excelStep12 from "../assets/flows/import-excel/Step_12.png";
+import excelStep13 from "../assets/flows/import-excel/Step_13.png";
+import excelStep14 from "../assets/flows/import-excel/Step_14.png";
+
 export const demoCardDetails = [
   {
     title: "Payments",
@@ -252,6 +286,16 @@ export const demoCardDetails = [
         title: "Bharat Connect",
         desc: "Secure exchange of invoices and payment information between buyers and sellers",
         route: "bharat-connect",
+      },
+      {
+        title: "Loop Payment",
+        desc: "Payments for multiple vouchers one by one in an automated sequence.",
+        route: "loop-payment",
+      },
+      {
+        title: "Import Excel",
+        desc: "Create multiple vouchers automatically by uploading an excel file.",
+        route: "import-excel",
       },
     ],
   },
@@ -358,6 +402,28 @@ export const featureData = {
     ],
     note: "In this demo, let’s see how the Bharat Connect Features work",
     route: "bharat-connect-flow",
+  },
+  "loop-payment": {
+    title: "Loop Payment",
+    desc: "Processes payments for multiple selected vouchers one by one in an automated sequence.",
+    cards: [
+      "Automates payment processing for multiple vouchers in a single go",
+      "Reduces manual intervention and operational effort",
+      "Ensure faster and seamless execution of bulk payments",
+    ],
+    note: "In this demo, let’s see how to do loop payment in Bank Plugin",
+    route: "loop-payment-flow",
+  },
+  "import-excel": {
+    title: "Import Excel",
+    desc: "Create multiple vouchers automatically by uploading an excel file from Bank Plugin",
+    cards: [
+      "Enables bulk voucher creation through a single Excel Upload.",
+      "Reduces manual data entry and processing efforts",
+      "Improves accuracy and speeds up transaction processing",
+    ],
+    note: "In this demo, let’s see how to import excel in Bank Plugin",
+    route: "import-excel-flow",
   },
   "bank-reconciliation": {
     title: "Bank Reconciliation",
@@ -1307,7 +1373,9 @@ export const flowData = {
       note: "Note: OTP will be sent to the mobile number registered under the Current Account against the User ID.",
       position: { top: "78.5%", left: "73.5%", width: "30%" },
       arrow: "left",
-      points: ["Click on OTP", "If Maker-Checker workflow is present, then the Checker has to approve the transaction on Corporate Net Banking.",
+      points: [
+        "Click on OTP",
+        "If Maker-Checker workflow is present, then the Checker has to approve the transaction on Corporate Net Banking.",
       ],
     },
     {
@@ -1452,7 +1520,9 @@ export const flowData = {
       note: "Note: OTP will be sent to the mobile number registered under the Current Account against the User ID.",
       position: { top: "74.5%", left: "70%", width: "28%" },
       arrow: "left",
-      points: ["Click on OTP", "If Maker-Checker workflow is present, then the Checker has to approve the transaction on Corporate Net Banking.",
+      points: [
+        "Click on OTP",
+        "If Maker-Checker workflow is present, then the Checker has to approve the transaction on Corporate Net Banking.",
       ],
     },
     {
@@ -1567,7 +1637,9 @@ export const flowData = {
       note: "Note: OTP will be sent to the mobile number registered under the Current Account against the User ID.",
       position: { top: "74.5%", left: "70%", width: "25%" },
       arrow: "left",
-      points: ["Click on OTP", "If Maker-Checker workflow is present, then the Checker has to approve the transaction on Corporate Net Banking.",
+      points: [
+        "Click on OTP",
+        "If Maker-Checker workflow is present, then the Checker has to approve the transaction on Corporate Net Banking.",
       ],
     },
     {
@@ -2552,6 +2624,258 @@ export const flowData = {
       note: "Supplier Bank Statement:-<br/>After the payment is completed, it gets automatically reconciled with the bank statement.",
       position: { top: "55%", left: "50%", width: "32%" },
       arrow: "",
+      points: [],
+    },
+  ],
+  "loop-payment-flow": [
+    {
+      image: loopStep1,
+      title: "",
+      note: " Select multiple voucher’s using the spacebar",
+      position: { top: "42%", left: "27.8%", width: "30%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: loopStep2,
+      title: "",
+      note: "Click on Ctrl+F7 for Loop Payment",
+      position: { top: "53%", left: "75%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: loopStep3,
+      title: "",
+      note: "Select the Transfer Mode <br> (Transaction will happen in Loop)",
+      position: { top: "20.5%", left: "64.5%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: loopStep4,
+      title: "",
+      note: "Click on F4 to generate the OTP",
+      position: { top: "10.5%", left: "75%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: loopStep5,
+      title: "",
+      note: "OTP will be received on Registered Mobile Number",
+      position: { top: "54%", left: "80%", width: "32%" },
+      arrow: "bottom",
+      points: [],
+    },
+    {
+      image: loopStep6,
+      title: "",
+      note: "Enter the OTP",
+      position: { top: "78.5%", left: "66%", width: "28%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: loopStep7,
+      title: "",
+      note: "Press Enter to “Make the Payment”",
+      position: { top: "85%", left: "62%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: loopStep8,
+      title: "",
+      note: "",
+      position: { top: "78.5%", left: "72%", width: "28%" },
+      arrow: "left",
+      points: ["After clicking on “ENTER” the second selected voucher payment window will appear automatically.", "Enter the OTP"],
+    },
+    {
+      image: loopStep9,
+      title: "",
+      note: "Follow the same procedure to make the payment Click on F4 > create OTP > enter the OTP> click on ENTER",
+      position: { top: "82%", left: "70%", width: "34%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: loopStep10,
+      title: "",
+      note: "All the selected transaction’s payment will get done one by one",
+      position: { top: "55%", left: "70%", width: "32%" },
+      arrow: "",
+      points: [],
+    },
+    {
+      image: loopStep11,
+      title: "",
+      note: "Click on F11- Refresh Status",
+      position: { top: "68%", left: "74%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: loopStep12,
+      title: "",
+      note: "The status will get updated",
+      position: { top: "83%", left: "62%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: loopStep13,
+      title: "",
+      note: "Click on “F5 – Filter By Status”",
+      position: { top: "28%", left: "74%", width: "30%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: loopStep14,
+      title: "",
+      note: "Select the Payment status as “SUCCESS”",
+      position: { top: "79%", left: "56%", width: "30%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: loopStep15,
+      title: "",
+      note: "Click on “ENTER”",
+      position: { top: "69%", left: "57%", width: "30%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: loopStep16,
+      title: "",
+      note: "All the Successful transactions will appear",
+      position: { top: "50%", left: "50%", width: "30%" },
+      arrow: "",
+      points: [],
+    },
+  ],
+  "import-excel-flow": [
+    {
+      image: excelStep1,
+      title: "",
+      note: "Click on F6: Initiate Payment",
+      position: { top: "59.5%", left: "75%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: excelStep2,
+      title: "",
+      note: "Select the Bank Ledger",
+      position: { top: "18%", left: "51%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: excelStep3,
+      title: "",
+      note: "Select the Date Range",
+      position: { top: "58%", left: "57%", width: "28%" },
+      arrow: "left",
+      points: [],
+    },
+    {
+      image: excelStep4,
+      title: "",
+      note: "Click on “F8: IMPORT FROM EXCEL” option",
+      position: { top: "84%", left: "92%", width: "26%" },
+      arrow: "bottom",
+      points: [],
+    },
+    {
+      image: excelStep5,
+      title: "",
+      note: "Click on “F5: Template export”",
+      position: { top: "10.5%", left: "75%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: excelStep6,
+      title: "",
+      note: " Click on “Yes”",
+      position: { top: "88%", left: "63%", width: "28%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: excelStep7,
+      title: "",
+      note: "Excel template will get downloaded",
+      position: { top: "54.5%", left: "70%", width: "28%" },
+      arrow: "",
+      points: [],
+    },
+    {
+      image: excelStep8,
+      title: "",
+      note: "Open the saved Excel Template from the folder",
+      position: { top: "41%", left: "30%", width: "32%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: excelStep9,
+      title: "",
+      note: "Fill the details as per the requirement for Payments in the excel",
+      position: { top: "49%", left: "10%", width: "28%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: excelStep10,
+      title: "",
+      note: " Save the Details / Save as the excel in the path",
+      position: { top: "60%", left: "50%", width: "30%" },
+      arrow: "",
+      points: [],
+    },
+    {
+      image: excelStep11,
+      title: "",
+      note: "  Upload the excel back in Bank Plugin’s dashboard path. <br> <br> Follow the below steps: Select the file path > File Name > Location of the excel file > Sheet name)",
+      position: { top: "44.5%", left: "12%", width: "25%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: excelStep12,
+      title: "",
+      note: " Click on “Enter”",
+      position: { top: "87%", left: "65%", width: "25%" },
+      arrow: "right",
+      points: [],
+    },
+    {
+      image: excelStep13,
+      title: "",
+      note: "The details of the excel will get automatically fetched by Bank Plugin",
+      position: { top: "50%", left: "50%", width: "32%" },
+      arrow: "",
+      points: [],
+    },
+    {
+      image: excelStep14,
+      title: "",
+      note: " Select the Vouchers by clicking on Spacebar.",
+      position: { top: "41%", left: "27.8%", width: "32%" },
+      arrow: "top",
+      points: [],
+    },
+    {
+      image: excelStep14,
+      title: "",
+      note: "Two options will be displayed for making payments <br> 1. Bulk Payment <br> 2. Loop Payment",
+      position: { top: "49%", left: "73%", width: "32%" },
+      arrow: "right",
       points: [],
     },
   ],
